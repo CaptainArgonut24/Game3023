@@ -1,0 +1,5587 @@
+fileFormatVersion: 2
+guid: 106b4c8754be058428833099652b2649
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Itch release tileset base 01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4493f8d63d5a27f469c5d07e77069302
+      internalID: 875795070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 372
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376fd6632cbb20e43b814682530b8f36
+      internalID: -1334042353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 372
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d866f18ce39dae4bb32ec5f91e46417
+      internalID: 1905749453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 372
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67be976bc1a61dd4b9a7b4295ac13bbb
+      internalID: 1454745416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 372
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b18e19f295b1a44d95b6be31f7c5445
+      internalID: 208769334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 372
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23e7d0f4b6ed6948a88783a1a893bae
+      internalID: 2075935499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 372
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a2defd6e706164f92fb8e75df08102
+      internalID: 1296109801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_7
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 372
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea80377cedb3d649b59f2cd42f594ad
+      internalID: -1300315340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 372
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8cbf5daa6810141adbd6e1c28db9de
+      internalID: -1391042123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 372
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ed715c9ce33af4c8c3b5579a1b5ad1
+      internalID: -1465414574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 372
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d3ff21e580b864886502f3f91c3ea2
+      internalID: 1182514013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_11
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 372
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d70c0038c00ed47affbce6ceb31edb
+      internalID: -963896295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 372
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c771fcdd28389a41b008f1764788193
+      internalID: -2054619852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c62de84e6e9e94cb5a80cd43b3d0d4
+      internalID: 1908244305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_14
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 352
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d803b725005fc4b88d4b391be29b54
+      internalID: -1327511093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_15
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 352
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961eae7e01480d44486fcf15040eafb7
+      internalID: 28681601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_16
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 352
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046f4a7ccce39e24aae1622e632d236e
+      internalID: -869534200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 352
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96430008fb3143c4395598c83ccad08f
+      internalID: -2082293378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_18
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 352
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce13183f748ce54c9b1ab9440ce2860
+      internalID: 241027739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_19
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 352
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5585b520fefa04a9235ec0d6900c71
+      internalID: 1922350430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_20
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 352
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0baa8de87111d4eafbb9cb3c955dea
+      internalID: -901918529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85da5c82cbc5c6548b63bc549f522eff
+      internalID: 1761259045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_22
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 352
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7afd20d8afd224ea1a4fb749feb4e5
+      internalID: 1507547148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_23
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 352
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2a6e48bc9014e45a7d3aac1edee9a3
+      internalID: 540584099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_24
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 352
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d073230a0ff2d44b95b6625d13af168
+      internalID: -631333533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_25
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 352
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1ac646fe44cb84a8ee69758b271195
+      internalID: 619239143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a381392f621ba94fa7eb3a09aab1d23
+      internalID: -708608561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_27
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 332
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ade0970c3bd9b4892c99a8d386efb8
+      internalID: -1240554187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_28
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 332
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d074b8dfc125b478a80005b75b9bc9
+      internalID: 851049786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_29
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 332
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8f579489149d745a072edee982ae9b
+      internalID: -1490008452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_30
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 332
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3485a6ef29c84498d4118937e69d76
+      internalID: 925025766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_31
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 332
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a61eac3c9707244b9c2095b90ce726f
+      internalID: -838056200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_32
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 332
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4dd41830ede04498980d58ae4c1402
+      internalID: 1235747375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_33
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 332
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac03a78c985db74db0e1cd8680608b0
+      internalID: 1560609966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 332
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4293003f148efff45862e750f7ec2e07
+      internalID: -1687183109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_35
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 332
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e325423c77437ff41ac060f4c180feb9
+      internalID: 432883728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_36
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 332
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b36765206d41f24ab25739187c17e06
+      internalID: 876359066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_37
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 332
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddfe572622ab1f4f86c4400e0a7894b
+      internalID: 650670267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 332
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894d06b5628c44148bacbcf641a46ef7
+      internalID: -312601934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca76504c1dc972746af55ad12de85b78
+      internalID: -465943887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_40
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 312
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1d16898a430a74b926234cdb323e68
+      internalID: -1057350640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_41
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 312
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a20249822dac8c4f81142b8569de738
+      internalID: -1760767572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_42
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 312
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80559d15245fdb2439bfce83eb45c437
+      internalID: 1928349891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_43
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 312
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d1b5fcba0effa45805581032168a54
+      internalID: -1741759581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_44
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 312
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a13d0653ac78e24c80558582530f840
+      internalID: 408090599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_45
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 312
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7231c9f172ed64b4da63a11a3838370e
+      internalID: 79965454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_46
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 312
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9a8cdc47accb14b896cfa36dafc5f8
+      internalID: -313708017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 312
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a71016a6b6661a49b22c3f3cb1cea23
+      internalID: -1252872335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_48
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 312
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c49129afc2cd7241b6713ffa7c6251f
+      internalID: 1117536048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_49
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 312
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4a717c79dc1a94a8f67d45c97b0b1f
+      internalID: -812281732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_50
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 312
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3e5c1a09469404a91d926664ba32ef
+      internalID: -1077937652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_51
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 312
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542f87522dc54294fb87571c058cc873
+      internalID: -153964872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 292
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e130a4654ffa947b9d54485e030e44
+      internalID: -567133209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_53
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 292
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038e65ba564a17f49aca0793ea567055
+      internalID: -1500527242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_54
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 292
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae9c20c445575b409ea30a9e4d3a5b1
+      internalID: 296014374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_55
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 292
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56728d6f4c4cbbf4f813ba29c4d605cc
+      internalID: -1569936358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_56
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 292
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a9802469d66f24f925449a988514da
+      internalID: -363846201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_57
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 292
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5a017abbf362a4295664c925ab6ade
+      internalID: -253795037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_58
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 292
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec0c2ace9b846b4d9d02913f01855e4
+      internalID: 829479186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_59
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 292
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d57c17fd56aa24a932163f3425e140
+      internalID: -498879459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_60
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 292
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c7a322c55bfe941b4cc11bb4ca3424
+      internalID: 1404330706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_61
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 292
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22eef3d31b60bd941a36b517c2de7d68
+      internalID: -106713350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_62
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 292
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca140d440cd2f624396b0f2d4c1f88c4
+      internalID: -1676166121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_63
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 292
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acfad2e78a171d4790f1cbfbda8fee9
+      internalID: 172829872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_64
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 292
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6c4b6ae629943438d28f75e07cdada
+      internalID: 2138945825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939b9f1564e0576448056aa4867cea3b
+      internalID: 1757339663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_66
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 272
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c65eb5170c2214489c979d4a966bf2
+      internalID: 1668552415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_67
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 272
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18e1fbc18f387f4d8493da930cf1ef5
+      internalID: -1961539784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_68
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 272
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ff1a8a6569f134ab78e5e53eba7020
+      internalID: -840369994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_69
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 272
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246ca614049224847bd5bbda0cea12a8
+      internalID: 1203749345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_70
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 272
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d136aea151784048b814c0899c7adfd
+      internalID: 1689295976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_71
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 272
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc76a181762501408495cdfbb6916ea
+      internalID: 1489734634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_72
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 272
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2273a2fcff2784d4280e7bf83b15bb73
+      internalID: 81788564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_73
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 272
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5255931e3814454ba48f5c2b94831cb
+      internalID: 794394070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_74
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 272
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b6385d01be2f04abd0fc7dbd08ee79
+      internalID: -273495382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_75
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 272
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c80566f0f15dc4b9873c36e2a4b0ab
+      internalID: -778022393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_76
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 272
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7977bcb7bfcca61458850d7fac01c7c4
+      internalID: -990182565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_77
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 272
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef7629d5a7a9154aad9774ef5d56c5c
+      internalID: 332658757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcce83c4228e0fb47afe054eff947ae6
+      internalID: -1493520201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_79
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 252
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efed54bd697a7ab42a182bc84b88bbc0
+      internalID: -387942562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_80
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 252
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1190ea274195894bb2734571ee424c3
+      internalID: -1799006650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_81
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 252
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95f9480337000e4b856cf176ade6a12
+      internalID: -925081644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_82
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 252
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ac6254f7c8b8248accbd5a85ce2cf4
+      internalID: 78825159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_83
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 252
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1bb514534d6f64084252285357f4b4
+      internalID: 531974163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_84
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 252
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe39b0ab64eca664dba309132c4195ef
+      internalID: -2093543122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_85
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 252
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9453ef5f38a3d0d48a3a273a82f105ec
+      internalID: 2021866166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_86
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 252
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0ff825b8e0d2e4eab15d3bacb3bf9f
+      internalID: -1105274558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_87
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 252
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b331d859048f4d40b9153ccf5a06359
+      internalID: 535401056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_88
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 252
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3831b0f29c487a4a89b95681533ded0
+      internalID: 696849229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_89
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 252
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3d3bd70f66d2243b87157a968ce933
+      internalID: -1522092072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_90
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 252
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cb57e9253a9fb4b9c1a7f619e6c441
+      internalID: -1769678805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d0257b0e4bc7d48a42ed3c76fcf682
+      internalID: 1937111362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_92
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 232
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dc2135ef8541541958e7f64ae4b658
+      internalID: 889379344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_93
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 232
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94894296b5a71904c85bbbd82bb2741c
+      internalID: -1569798176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_94
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 232
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41be2292bdde06d4d98346e01e8425fa
+      internalID: 125384727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_95
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 232
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dec9b83a1d8534c9ced0e808394d3f
+      internalID: 996474084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_96
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 232
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf269c2980e1d44c8339d9d86ff2575
+      internalID: 2035560236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_97
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 232
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf2f9d46460b8449a8701b1987183f2
+      internalID: 785601350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_98
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 232
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b32b68c8151384ba90c6a63c37ea5b
+      internalID: 455689695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_99
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 232
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f4cc97fa3307747b9fc48aaa37a87d
+      internalID: -628974996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_100
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 232
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d64d82116f975044a569a531b5fb0e8
+      internalID: -622105996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_101
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 232
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a59dc5bbbc3e0544849bb3ca1530294
+      internalID: -253516051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_102
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 232
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6700dc73685689b48b499a1cfb5564a7
+      internalID: 1579207839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_103
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 232
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57973fe0429e3564c94562de32edc070
+      internalID: 1504031562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7626b4182f8e34182ada4eb3f18f6d
+      internalID: 2117486742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_105
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 212
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce18d01a2e212dd4987a88d41983cdb5
+      internalID: -2077946670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_106
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 212
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e5ee083f371d2468e5c4abd100a22c
+      internalID: -2071745809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_107
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 212
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e28629ab00c404a9dccb825a799d87
+      internalID: -273942737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_108
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 212
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa58eb5a53deb642b65ad277390dfb3
+      internalID: -668922619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_109
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 212
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598d4e0a82637854cb4f84e9b6e7e08b
+      internalID: -541971474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_110
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 212
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc60859129ed3b4b989b24284c45300
+      internalID: -1528241182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_111
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 212
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd15eb9c261804c4b9fe0c2a74831fb4
+      internalID: 1887925917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_112
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 212
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcd077cbf8066143b108384bf09087e
+      internalID: -419384232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_113
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 212
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a06c7d26ec1a34dbf2345917c1c06d
+      internalID: 1021347735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_114
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 212
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd80f672bb5b9f745b0ab4bbdbb6c6a6
+      internalID: -36539682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_115
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 212
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9ad6245b4c5f344a556c3919e718be
+      internalID: -361087466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_116
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 212
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be608549f49aff147a07f85aa53fa669
+      internalID: -375459455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dd7492389fd1248ae617827d3749de
+      internalID: 1471794972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_118
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 192
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b14babc9456784a8718c662734026a
+      internalID: -436586491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_119
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 192
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf497446d4a7be647a3d2d4d82c8deec
+      internalID: -927538911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_120
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 192
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05510c811b5c144eb36355f34ef604c
+      internalID: -1448761145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_121
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfea19d57c7e99a42bfc605b14b2bece
+      internalID: -746532008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_122
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 192
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c12593f705774a459fd915670d7baf1
+      internalID: 1088532884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_123
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 192
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ff9e674de319445958085e8757a5d6
+      internalID: -1830364603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_124
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 192
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a648f2c88171064881e5ecf2a69b867
+      internalID: 1032159394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_125
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f689b2fc220344fb8658746bd14397
+      internalID: 589408507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_126
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 192
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e838196499c30b24cabaad0a4fe0d534
+      internalID: -610264841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_127
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 192
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f237baa21fffa9b469831265b3382f11
+      internalID: 1997251703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_128
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 192
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71646ac3cb6519e468970c957fa5c079
+      internalID: -509502914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_129
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbc66b4abfefc74eab4ed3584c48494
+      internalID: -1498763611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62352e3711263e64fa257de9bf92a550
+      internalID: -1505309481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_131
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 172
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46f2240c69769f44815db2e48fe3b44
+      internalID: 1688567295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_132
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 172
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fb19a5f6741814b97f3bca0f091763
+      internalID: 1872010835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_133
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 172
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad7c5ae92a754c4e97c9e4d90ced152
+      internalID: -918625956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_134
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 172
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142965851dd7c514b9f82fdb37672e44
+      internalID: 1747820152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_135
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 172
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12381d524edf50441a1eba17aa6ca301
+      internalID: 1745850542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_136
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 172
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d41e54d4d654384b8191313b6cbce71
+      internalID: 47332147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_137
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 172
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb1e128f49d52a4784db36c43a6f277
+      internalID: 1181835014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_138
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 172
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a725d81436e702340a50934ee5b484c2
+      internalID: 1291367111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_139
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 172
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93f2c74573a58c4c90b60697c7cb29e
+      internalID: -139601796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_140
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 172
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e5c1fe5f8b9bc4c9648f06794a8378
+      internalID: -541598326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_141
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 172
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc911f9a5e6f5e04bbe04c5dca0fa701
+      internalID: 567293417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_142
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 172
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50407a280d21aba459356ced12d362fa
+      internalID: -1777975543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f327be3a95a2e40b3dd9e17887c8e1
+      internalID: 411018881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_144
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 152
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918237595b524d84dbe54757a4b2138c
+      internalID: 523347299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_145
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 152
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec39937d8b71cf143bddcd319fe06676
+      internalID: -779116424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_146
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 152
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a67285899683724388e48ef51878737
+      internalID: 2118301002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_147
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 152
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622112ff8a78aa94590c14e954f2b3c1
+      internalID: 574697370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_148
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 152
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eded17133b645bb41ab23fc6d6f318e8
+      internalID: -1642214531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_149
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 152
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddabd5216a0b1645a83cbaacbc7b90f
+      internalID: -184161336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_150
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 152
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255d968ccb0a56d45be5529d33ba6d84
+      internalID: -513606756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_151
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 152
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367fcf92b4683c04ab728b95227796ec
+      internalID: 475002508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_152
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 152
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ade1f7c67a131540bb12c056027ae6b
+      internalID: 677482691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_153
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 152
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659aeb944ffded746a129b891b84adc2
+      internalID: 1792594821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_154
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 152
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f29794ecc97e71409c5a43d92746f7b
+      internalID: -253920854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_155
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 152
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac688b2466ba044ba12134b1f0f5cda
+      internalID: -671685818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7be4cf0b9c742f4ca64c7ab0e9addd0
+      internalID: 508200709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_157
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 132
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1d061c4050b244fa8e3396d7c21630
+      internalID: -2124115761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_158
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 132
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1011050e04e4f34439b04291771aaceb
+      internalID: -1811436987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_159
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 132
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95dbb36151860f4429d3d0df072d78f3
+      internalID: -936465878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_160
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 132
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da84c973851a3646b49a32fd1e27305
+      internalID: -840851110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_161
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 132
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152fe3f6d8e864649b02e718666b3b0c
+      internalID: -829678157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_162
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 132
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58afdef0093511f40acf7f170a412aed
+      internalID: 1679529145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_163
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 132
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53b3d6fb7aeaaf4d9bd036deec8dba4
+      internalID: -1120626021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_164
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 132
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44f43ed3a6d10648a9252e70ec1c9d5
+      internalID: -1633755000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_165
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 132
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4931e199624f63541be1b0af7e7e5b34
+      internalID: -121784472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_166
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 132
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e66e0ae6f6a924bb879697af723d1f
+      internalID: 1114317422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_167
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 132
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652bcf9ecf47cfc448e1b35b95e8e546
+      internalID: -2001505025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_168
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 132
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d72aa854ef08354abb6f960de4bf3a8
+      internalID: 907240127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_169
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ca51530c51434498dbec2bd257e277
+      internalID: 1927388006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_170
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 112
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7681149c77566f9438891b7f050adbcb
+      internalID: 1565278083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_171
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 112
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c730bad388cc894d83dbc35ecb1e92b
+      internalID: 1581718810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_172
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 112
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255cae06ac470af498ee6d2e1442be1b
+      internalID: 1969463828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_173
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296d6ca65bf0c2e49a48ff057c18d502
+      internalID: -1444989707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_174
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 112
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18dad57f0086d6c4e954da7ff2635a96
+      internalID: 1669845476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_175
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 112
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec92cdf97250b946b203d1d0815e9d5
+      internalID: -1010638257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_176
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 112
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202353ce4666d314ea8686d6af1c785f
+      internalID: 1595869650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_177
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ffc3f27e99b8b42b6156e4142fc52c
+      internalID: 273075318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_178
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 112
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a5c5ba4303af942a72004329349342
+      internalID: 8068893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_179
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 112
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6a0c3d8d3df874cb7b339935495dbe
+      internalID: 1361502149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_180
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 112
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f257d9aa8610e734594e6bfd91f86eab
+      internalID: -216762293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_181
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709f49bf45ef4ee4c91d02f1876b0d0e
+      internalID: -1382419413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b76bca2873e7246885f70ccb4bb731
+      internalID: 1608129706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_183
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 92
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741af0c1d60f7d34ba8a696307f19e3d
+      internalID: -1651952735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_184
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 92
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0901894fda4324b8ba4815e4e3861c
+      internalID: -1564773535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_185
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 92
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e157a9df2cc7a40b87ef04b52988ef
+      internalID: -1170277313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_186
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 92
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dafc043d786cb646814dc210309ee38
+      internalID: -307296958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_187
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 92
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d22a7664cfd5324284b7a23f40593b8
+      internalID: 1020754041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_188
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 92
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22efde080de23f47bd1de159a9fbc26
+      internalID: -1663272776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_189
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 92
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b508219fa7cf134bbabe9a9957c6fd3
+      internalID: 732410257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_190
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 92
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8c4b0edad113245a08c900c715e206
+      internalID: 520127676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_191
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 92
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02f73560b9094b448c1aa8e44d96fd7
+      internalID: 1883386355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_192
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 92
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0463234d284c92b48967a97f804246c6
+      internalID: -248987310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_193
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 92
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fcda4a552eddb42bf5f61f1de0b921
+      internalID: -1185873993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_194
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 92
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d11e70b68aa7843a42ee892c02977d
+      internalID: -1810019687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_195
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b756091c39903e54580801f5ef2c720b
+      internalID: -691856869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_196
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 72
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483b6f7fad1cf534b88d319d399cc800
+      internalID: -1536233110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_197
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 72
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb7d3fbd59ddd140af2979cbae4985c
+      internalID: 777137297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_198
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 72
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d8c65e6fe329a42ad947ce65c511f2
+      internalID: 1212589852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_199
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 72
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6966716f4808c4442b5589fdddaf784a
+      internalID: 1832691901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_200
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 72
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932a958d53ebd694c9e933baa5c523be
+      internalID: -392979642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_201
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 72
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2baf871435909e4a8c0153f4290ee3c
+      internalID: 1236230560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_202
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 72
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ef5cd06e066f94a9391d92f2e3b12a
+      internalID: -91215774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_203
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 72
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468c3d17785c43e4cb9d694e3db37282
+      internalID: 797575068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_204
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 72
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7dd7e56cc0e5344482e28ccba4d43f8
+      internalID: -1847068192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_205
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 72
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b6eb075ff93b24bbee342eb580519b
+      internalID: 1287080277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_206
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 72
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd0cda4f4db6de43a68f79bda790e08
+      internalID: 451539726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_207
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 72
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f64618632e65c45867632f2a3a8e3b
+      internalID: -2101101309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaee34b64e1d5c408c04e844958ce64
+      internalID: -1011554773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_209
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 52
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45227dfe214f2ac43975af05df8e1a89
+      internalID: 1367803668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_210
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 52
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a84912bcc815f54f9851bbd0575b167
+      internalID: -1915295462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_211
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 52
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f4d29fb79a9034e9a7719f68ffd937
+      internalID: -1811614447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_212
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 52
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2e9358874af6549a8b56e89add0a03
+      internalID: 1694813089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_213
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 52
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44845633c4244724485c739cb82c0603
+      internalID: -72911833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_214
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 52
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0481dafd4edf845b732c4f95a87516
+      internalID: -1519766751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_215
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 52
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3467e20fd81b24c956492277571960
+      internalID: -222450143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_216
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 52
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d81c3de0af3c0e4cba52b3fd40da85b
+      internalID: 1731408735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_217
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 52
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af135615a0974cc4dabe4680f7453f69
+      internalID: -1113078642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_218
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 52
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b55c8475efbf347abc808f72a87b45
+      internalID: 14402858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_219
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 52
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a557cec885818448b4184ffb6c3d63a
+      internalID: 1259821154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_220
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 52
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7177771331c90d240a32ecc4eee72700
+      internalID: 204425846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_221
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b0daa8d91dece4abaf6ec240805a79
+      internalID: -1652151124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_222
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 32
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e6a398a02c15149b05f39e94e49302
+      internalID: 1723481315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_223
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 32
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e241d5e57b2712543a2109e84f3d9802
+      internalID: 391412738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_224
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 32
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a1ab58bf19d7d42913be324d4dd154
+      internalID: 1865274819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_225
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05908d2b6c6039d4383eef0d10bda7ea
+      internalID: 1636571704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_226
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 32
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ea5ac819ff5f345b29ded2e2fe6d57
+      internalID: -1644063664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_227
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 32
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cb3c032bb27ff42a84ff8e32ed9619
+      internalID: 462624293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_228
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 32
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a1f7e7327bf334390431fee9f3e937
+      internalID: -161576207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_229
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb0c505d42b4344690a1395cac2ed4e
+      internalID: 1797429248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_230
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 32
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14419940d8cf554188b918a7aa1b0dc
+      internalID: 2131383305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_231
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 32
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633bc1e1fbc87fb45947885ec6c87784
+      internalID: -857290668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_232
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 32
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d068c9de86ae9a4786986f34fcbb1f4
+      internalID: -610492348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_233
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3ec83882c11124e8d83cd9e6cd09c0
+      internalID: -918040843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_234
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fa1854debad6449a35370648e57156
+      internalID: -1582574376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_235
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 12
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594e695652fae6e458f3987ba2402a7e
+      internalID: 50521607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_236
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 12
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc2f5006f945fe40888f1f0fca6c193
+      internalID: -1407911419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_237
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 12
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835edc05bff6cbc47894876f8e3c6d23
+      internalID: -36673752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_238
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 12
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9717c01708466419a6681e2fa6252d
+      internalID: 1213414594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_239
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 12
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d55482c5fdc9aa4e99060f705b6e79e
+      internalID: -361919077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_240
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 12
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4423a5d321fff4da44de8a8272d40c
+      internalID: 1768721128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_241
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 12
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730f390e983ed06468010b04058339e8
+      internalID: 232745212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_242
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 12
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75ecf25de1511f42807d90d5947ea81
+      internalID: 1123726497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_243
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 12
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b815bd7f59eaf347839b064981a093d
+      internalID: -1371750316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_244
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 12
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccaee4119d7c9c14cbc22dd550439790
+      internalID: 2039041884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_245
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 12
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43c072e55314bd468b792b66a10f260
+      internalID: -1507773071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Itch release tileset base 01_246
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 12
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0162023f3122cbe43b9bbb070955e035
+      internalID: -408415660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Itch release tileset base 01_0: 875795070
+      Itch release tileset base 01_1: -1334042353
+      Itch release tileset base 01_10: 1182514013
+      Itch release tileset base 01_100: -622105996
+      Itch release tileset base 01_101: -253516051
+      Itch release tileset base 01_102: 1579207839
+      Itch release tileset base 01_103: 1504031562
+      Itch release tileset base 01_104: 2117486742
+      Itch release tileset base 01_105: -2077946670
+      Itch release tileset base 01_106: -2071745809
+      Itch release tileset base 01_107: -273942737
+      Itch release tileset base 01_108: -668922619
+      Itch release tileset base 01_109: -541971474
+      Itch release tileset base 01_11: -963896295
+      Itch release tileset base 01_110: -1528241182
+      Itch release tileset base 01_111: 1887925917
+      Itch release tileset base 01_112: -419384232
+      Itch release tileset base 01_113: 1021347735
+      Itch release tileset base 01_114: -36539682
+      Itch release tileset base 01_115: -361087466
+      Itch release tileset base 01_116: -375459455
+      Itch release tileset base 01_117: 1471794972
+      Itch release tileset base 01_118: -436586491
+      Itch release tileset base 01_119: -927538911
+      Itch release tileset base 01_12: -2054619852
+      Itch release tileset base 01_120: -1448761145
+      Itch release tileset base 01_121: -746532008
+      Itch release tileset base 01_122: 1088532884
+      Itch release tileset base 01_123: -1830364603
+      Itch release tileset base 01_124: 1032159394
+      Itch release tileset base 01_125: 589408507
+      Itch release tileset base 01_126: -610264841
+      Itch release tileset base 01_127: 1997251703
+      Itch release tileset base 01_128: -509502914
+      Itch release tileset base 01_129: -1498763611
+      Itch release tileset base 01_13: 1908244305
+      Itch release tileset base 01_130: -1505309481
+      Itch release tileset base 01_131: 1688567295
+      Itch release tileset base 01_132: 1872010835
+      Itch release tileset base 01_133: -918625956
+      Itch release tileset base 01_134: 1747820152
+      Itch release tileset base 01_135: 1745850542
+      Itch release tileset base 01_136: 47332147
+      Itch release tileset base 01_137: 1181835014
+      Itch release tileset base 01_138: 1291367111
+      Itch release tileset base 01_139: -139601796
+      Itch release tileset base 01_14: -1327511093
+      Itch release tileset base 01_140: -541598326
+      Itch release tileset base 01_141: 567293417
+      Itch release tileset base 01_142: -1777975543
+      Itch release tileset base 01_143: 411018881
+      Itch release tileset base 01_144: 523347299
+      Itch release tileset base 01_145: -779116424
+      Itch release tileset base 01_146: 2118301002
+      Itch release tileset base 01_147: 574697370
+      Itch release tileset base 01_148: -1642214531
+      Itch release tileset base 01_149: -184161336
+      Itch release tileset base 01_15: 28681601
+      Itch release tileset base 01_150: -513606756
+      Itch release tileset base 01_151: 475002508
+      Itch release tileset base 01_152: 677482691
+      Itch release tileset base 01_153: 1792594821
+      Itch release tileset base 01_154: -253920854
+      Itch release tileset base 01_155: -671685818
+      Itch release tileset base 01_156: 508200709
+      Itch release tileset base 01_157: -2124115761
+      Itch release tileset base 01_158: -1811436987
+      Itch release tileset base 01_159: -936465878
+      Itch release tileset base 01_16: -869534200
+      Itch release tileset base 01_160: -840851110
+      Itch release tileset base 01_161: -829678157
+      Itch release tileset base 01_162: 1679529145
+      Itch release tileset base 01_163: -1120626021
+      Itch release tileset base 01_164: -1633755000
+      Itch release tileset base 01_165: -121784472
+      Itch release tileset base 01_166: 1114317422
+      Itch release tileset base 01_167: -2001505025
+      Itch release tileset base 01_168: 907240127
+      Itch release tileset base 01_169: 1927388006
+      Itch release tileset base 01_17: -2082293378
+      Itch release tileset base 01_170: 1565278083
+      Itch release tileset base 01_171: 1581718810
+      Itch release tileset base 01_172: 1969463828
+      Itch release tileset base 01_173: -1444989707
+      Itch release tileset base 01_174: 1669845476
+      Itch release tileset base 01_175: -1010638257
+      Itch release tileset base 01_176: 1595869650
+      Itch release tileset base 01_177: 273075318
+      Itch release tileset base 01_178: 8068893
+      Itch release tileset base 01_179: 1361502149
+      Itch release tileset base 01_18: 241027739
+      Itch release tileset base 01_180: -216762293
+      Itch release tileset base 01_181: -1382419413
+      Itch release tileset base 01_182: 1608129706
+      Itch release tileset base 01_183: -1651952735
+      Itch release tileset base 01_184: -1564773535
+      Itch release tileset base 01_185: -1170277313
+      Itch release tileset base 01_186: -307296958
+      Itch release tileset base 01_187: 1020754041
+      Itch release tileset base 01_188: -1663272776
+      Itch release tileset base 01_189: 732410257
+      Itch release tileset base 01_19: 1922350430
+      Itch release tileset base 01_190: 520127676
+      Itch release tileset base 01_191: 1883386355
+      Itch release tileset base 01_192: -248987310
+      Itch release tileset base 01_193: -1185873993
+      Itch release tileset base 01_194: -1810019687
+      Itch release tileset base 01_195: -691856869
+      Itch release tileset base 01_196: -1536233110
+      Itch release tileset base 01_197: 777137297
+      Itch release tileset base 01_198: 1212589852
+      Itch release tileset base 01_199: 1832691901
+      Itch release tileset base 01_2: 1905749453
+      Itch release tileset base 01_20: -901918529
+      Itch release tileset base 01_200: -392979642
+      Itch release tileset base 01_201: 1236230560
+      Itch release tileset base 01_202: -91215774
+      Itch release tileset base 01_203: 797575068
+      Itch release tileset base 01_204: -1847068192
+      Itch release tileset base 01_205: 1287080277
+      Itch release tileset base 01_206: 451539726
+      Itch release tileset base 01_207: -2101101309
+      Itch release tileset base 01_208: -1011554773
+      Itch release tileset base 01_209: 1367803668
+      Itch release tileset base 01_21: 1761259045
+      Itch release tileset base 01_210: -1915295462
+      Itch release tileset base 01_211: -1811614447
+      Itch release tileset base 01_212: 1694813089
+      Itch release tileset base 01_213: -72911833
+      Itch release tileset base 01_214: -1519766751
+      Itch release tileset base 01_215: -222450143
+      Itch release tileset base 01_216: 1731408735
+      Itch release tileset base 01_217: -1113078642
+      Itch release tileset base 01_218: 14402858
+      Itch release tileset base 01_219: 1259821154
+      Itch release tileset base 01_22: 1507547148
+      Itch release tileset base 01_220: 204425846
+      Itch release tileset base 01_221: -1652151124
+      Itch release tileset base 01_222: 1723481315
+      Itch release tileset base 01_223: 391412738
+      Itch release tileset base 01_224: 1865274819
+      Itch release tileset base 01_225: 1636571704
+      Itch release tileset base 01_226: -1644063664
+      Itch release tileset base 01_227: 462624293
+      Itch release tileset base 01_228: -161576207
+      Itch release tileset base 01_229: 1797429248
+      Itch release tileset base 01_23: 540584099
+      Itch release tileset base 01_230: 2131383305
+      Itch release tileset base 01_231: -857290668
+      Itch release tileset base 01_232: -610492348
+      Itch release tileset base 01_233: -918040843
+      Itch release tileset base 01_234: -1582574376
+      Itch release tileset base 01_235: 50521607
+      Itch release tileset base 01_236: -1407911419
+      Itch release tileset base 01_237: -36673752
+      Itch release tileset base 01_238: 1213414594
+      Itch release tileset base 01_239: -361919077
+      Itch release tileset base 01_24: -631333533
+      Itch release tileset base 01_240: 1768721128
+      Itch release tileset base 01_241: 232745212
+      Itch release tileset base 01_242: 1123726497
+      Itch release tileset base 01_243: -1371750316
+      Itch release tileset base 01_244: 2039041884
+      Itch release tileset base 01_245: -1507773071
+      Itch release tileset base 01_246: -408415660
+      Itch release tileset base 01_25: 619239143
+      Itch release tileset base 01_26: -708608561
+      Itch release tileset base 01_27: -1240554187
+      Itch release tileset base 01_28: 851049786
+      Itch release tileset base 01_29: -1490008452
+      Itch release tileset base 01_3: 1454745416
+      Itch release tileset base 01_30: 925025766
+      Itch release tileset base 01_31: -838056200
+      Itch release tileset base 01_32: 1235747375
+      Itch release tileset base 01_33: 1560609966
+      Itch release tileset base 01_34: -1687183109
+      Itch release tileset base 01_35: 432883728
+      Itch release tileset base 01_36: 876359066
+      Itch release tileset base 01_37: 650670267
+      Itch release tileset base 01_38: -312601934
+      Itch release tileset base 01_39: -465943887
+      Itch release tileset base 01_4: 208769334
+      Itch release tileset base 01_40: -1057350640
+      Itch release tileset base 01_41: -1760767572
+      Itch release tileset base 01_42: 1928349891
+      Itch release tileset base 01_43: -1741759581
+      Itch release tileset base 01_44: 408090599
+      Itch release tileset base 01_45: 79965454
+      Itch release tileset base 01_46: -313708017
+      Itch release tileset base 01_47: -1252872335
+      Itch release tileset base 01_48: 1117536048
+      Itch release tileset base 01_49: -812281732
+      Itch release tileset base 01_5: 2075935499
+      Itch release tileset base 01_50: -1077937652
+      Itch release tileset base 01_51: -153964872
+      Itch release tileset base 01_52: -567133209
+      Itch release tileset base 01_53: -1500527242
+      Itch release tileset base 01_54: 296014374
+      Itch release tileset base 01_55: -1569936358
+      Itch release tileset base 01_56: -363846201
+      Itch release tileset base 01_57: -253795037
+      Itch release tileset base 01_58: 829479186
+      Itch release tileset base 01_59: -498879459
+      Itch release tileset base 01_6: 1296109801
+      Itch release tileset base 01_60: 1404330706
+      Itch release tileset base 01_61: -106713350
+      Itch release tileset base 01_62: -1676166121
+      Itch release tileset base 01_63: 172829872
+      Itch release tileset base 01_64: 2138945825
+      Itch release tileset base 01_65: 1757339663
+      Itch release tileset base 01_66: 1668552415
+      Itch release tileset base 01_67: -1961539784
+      Itch release tileset base 01_68: -840369994
+      Itch release tileset base 01_69: 1203749345
+      Itch release tileset base 01_7: -1300315340
+      Itch release tileset base 01_70: 1689295976
+      Itch release tileset base 01_71: 1489734634
+      Itch release tileset base 01_72: 81788564
+      Itch release tileset base 01_73: 794394070
+      Itch release tileset base 01_74: -273495382
+      Itch release tileset base 01_75: -778022393
+      Itch release tileset base 01_76: -990182565
+      Itch release tileset base 01_77: 332658757
+      Itch release tileset base 01_78: -1493520201
+      Itch release tileset base 01_79: -387942562
+      Itch release tileset base 01_8: -1391042123
+      Itch release tileset base 01_80: -1799006650
+      Itch release tileset base 01_81: -925081644
+      Itch release tileset base 01_82: 78825159
+      Itch release tileset base 01_83: 531974163
+      Itch release tileset base 01_84: -2093543122
+      Itch release tileset base 01_85: 2021866166
+      Itch release tileset base 01_86: -1105274558
+      Itch release tileset base 01_87: 535401056
+      Itch release tileset base 01_88: 696849229
+      Itch release tileset base 01_89: -1522092072
+      Itch release tileset base 01_9: -1465414574
+      Itch release tileset base 01_90: -1769678805
+      Itch release tileset base 01_91: 1937111362
+      Itch release tileset base 01_92: 889379344
+      Itch release tileset base 01_93: -1569798176
+      Itch release tileset base 01_94: 125384727
+      Itch release tileset base 01_95: 996474084
+      Itch release tileset base 01_96: 2035560236
+      Itch release tileset base 01_97: 785601350
+      Itch release tileset base 01_98: 455689695
+      Itch release tileset base 01_99: -628974996
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
