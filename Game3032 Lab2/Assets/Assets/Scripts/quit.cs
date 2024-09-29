@@ -8,10 +8,15 @@ public class QuitGame : MonoBehaviour
     // Method to quit the game
     public void Quit()
     {
-        // Log for testing in the Unity Editor
+        // Log for feedback
         Debug.Log("Game is exiting...");
 
-        // If running in a built game, this will close the application
-        Application.Quit();
+        // If running in the Unity Editor, stop Play mode
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+            // If running in a built game, quit the application
+            Application.Quit();
+#endif
     }
 }
