@@ -18,6 +18,7 @@ namespace Calendar
         public bool is24HourTime = true;
 
         [Header("Text Prefabs")]
+        [SerializeField] private TextMeshProUGUI timeText;
         [SerializeField] private TextMeshProUGUI dateText;
         [SerializeField] private TextMeshProUGUI monthText;
         [SerializeField] private TextMeshProUGUI yearText;
@@ -43,6 +44,16 @@ namespace Calendar
         {
             31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31
         };
+
+        public enum DateFormat
+        {
+            YYYY_MM_DD,
+            MM_DD_YY,
+            DD_MM_YYYY
+        }
+
+        [Header("Date Format Settings")]
+        public DateFormat currentDateFormat = DateFormat.YYYY_MM_DD;
 
         #endregion
 
@@ -110,10 +121,18 @@ namespace Calendar
 
         private void UpdateUI()
         {
-            // Update Date in MM/DD/YYYY format
+            // Update Time
+            if (timeText != null)
+            {
+                string timeFormat = $"{hour:D2}:{minute:D2}";
+                timeText.text = timeFormat;
+            }
+
+            // Update Date in selected format
             if (dateText != null)
             {
-                dateText.text = $"{month:D2}/{day:D2}/{year}";
+                string formattedDate = GetFormattedDate();
+                dateText.text = formattedDate;
             }
 
             // Update Month Name
@@ -155,6 +174,26 @@ namespace Calendar
             }
         }
 
+        private string GetFormattedDate()
+        {
+            string formattedDate = string.Empty;
+
+            switch (currentDateFormat)
+            {
+                case DateFormat.YYYY_MM_DD:
+                    formattedDate = $"{year:D4}-{month:D2}-{day:D2}";
+                    break;
+                case DateFormat.MM_DD_YY:
+                    formattedDate = $"{month:D2}/{day:D2}/{year % 100:D2}";
+                    break;
+                case DateFormat.DD_MM_YYYY:
+                    formattedDate = $"{day:D2}/{month:D2}/{year:D4}";
+                    break;
+            }
+
+            return formattedDate;
+        }
+
         #region Public Methods
         public void LinkCalendarDays(List<GameObject> days)
         {
@@ -164,6 +203,13 @@ namespace Calendar
         public void LinkDayOfWeekTexts(List<TextMeshProUGUI> dayTexts)
         {
             dayOfWeekTexts = dayTexts;
+        }
+
+        // Call this to change the date format from other scripts or UI events
+        public void ChangeDateFormat(DateFormat newFormat)
+        {
+            currentDateFormat = newFormat;
+            UpdateUI();
         }
         #endregion
     }
