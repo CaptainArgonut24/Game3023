@@ -10,7 +10,7 @@ using UnityEngine.Rendering.Universal;
 
 public class CalenderEvents
 {
-    public CalenderEventSO events;
+    public Callander events;
 }
 
 public class CalenderManager : MonoBehaviour
@@ -38,7 +38,7 @@ public class CalenderManager : MonoBehaviour
     public Color dayColor;
 
     [Header("Events List")]
-    public List<CalenderEventSO> events;
+    public List<Callander> events;
 
     public int currentDate;
     public Season currentSeason;
