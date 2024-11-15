@@ -122,6 +122,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &27662720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 576906624344629495, guid: 5309ec677948f0f439ae68b15fd271bd, type: 3}
+  m_PrefabInstance: {fileID: 3133847491268762553}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &61279756 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6180053191051637844, guid: 1515f44058ffef64998ec47526271109, type: 3}
@@ -228,6 +233,11 @@ PrefabInstance:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3772923556346721434, guid: 3b22e04d1a982254ba33b9a517fadd0c, type: 3}
   m_PrefabInstance: {fileID: 65890218}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &100308553 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1718954532204417943, guid: 5309ec677948f0f439ae68b15fd271bd, type: 3}
+  m_PrefabInstance: {fileID: 3133847491268762553}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &104520330 stripped
 GameObject:
@@ -551,6 +561,11 @@ PrefabInstance:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3772923556346721434, guid: 3b22e04d1a982254ba33b9a517fadd0c, type: 3}
   m_PrefabInstance: {fileID: 278331263}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &303169919 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8308987045252267764, guid: 6d511ede614cc7c4185185da55a8a93e, type: 3}
+  m_PrefabInstance: {fileID: 804545220732034620}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &341561521
 PrefabInstance:
@@ -1305,13 +1320,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 166ebb04545e97447aa71fc57d62c217, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hour: 0
-  minute: 0
-  season: 0
-  date: 0
-  year: 0
+  hour: 21
+  minute: 5
+  season: 1
+  date: 1
+  year: 203
   is24HourTime: 1
   monthMode: 12
+  dateFormat: 0
+  dateTextPrefab: {fileID: 303169919}
+  timeTextPrefab: {fileID: 1475646771}
+  yearTextPrefab: {fileID: 27662720}
+  weekTextPrefab: {fileID: 100308553}
+  monthTextPrefab: {fileID: 1593620846}
   TickIncrease: 1
   TimeBetweenTicks: 0.5
   CurrentTickTime: 0
@@ -2794,6 +2815,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3772923556346721434, guid: 3b22e04d1a982254ba33b9a517fadd0c, type: 3}
   m_PrefabInstance: {fileID: 1433394801}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1475646771 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5576432050467085300, guid: 1515f44058ffef64998ec47526271109, type: 3}
+  m_PrefabInstance: {fileID: 1565916561715004076}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1498945641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3040,6 +3066,11 @@ PrefabInstance:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3772923556346721434, guid: 3b22e04d1a982254ba33b9a517fadd0c, type: 3}
   m_PrefabInstance: {fileID: 1557480503}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1593620846 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 705872671221201395, guid: 5309ec677948f0f439ae68b15fd271bd, type: 3}
+  m_PrefabInstance: {fileID: 3133847491268762553}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1631633367
 PrefabInstance:
