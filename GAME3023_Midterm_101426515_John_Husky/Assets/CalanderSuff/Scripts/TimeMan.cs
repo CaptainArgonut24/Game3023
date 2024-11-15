@@ -23,10 +23,13 @@ namespace Calendar
         [SerializeField] private TextMeshProUGUI monthText;
         [SerializeField] private TextMeshProUGUI yearText;
         [SerializeField] private TextMeshProUGUI weekText;
+        [SerializeField] private TextMeshProUGUI dayText; // Added for day of the week
+
         [SerializeField] private List<TextMeshProUGUI> dayOfWeekTexts;
 
         [Header("Calendar Grid")]
-        [SerializeField] private List<GameObject> calendarDays;
+        [SerializeField] private List<GameObject> calendarDays;  // Calendar Day Prefabs
+        [SerializeField] private List<SpriteRenderer> calendarDayImages; // Image for each day prefab
 
         [Header("Tick Settings")]
         [SerializeField] private int TickIncreaseMinutes = 1;
@@ -147,32 +150,59 @@ namespace Calendar
                 yearText.text = $"Year: {year}";
             }
 
-            // Update Week and Day
-            int dayOfWeekIndex = (day - 1) % 7;
+            // Update Week
+            int weekNumber = GetWeekOfYear(year, month, day);
             if (weekText != null)
             {
-                weekText.text = $"Day: {dayNames[dayOfWeekIndex]}";
+                weekText.text = $"Week: {weekNumber}";
             }
 
-            // Update day-of-week text colors
+            // Update Day of the Week (Green for Current Day)
+            if (dayText != null)
+            {
+                int dayOfWeekIndex = (day - 1) % 7;
+                dayText.text = dayNames[dayOfWeekIndex]; // Show day name (e.g., Monday, Tuesday)
+                UpdateDayOfWeekHighlight(dayOfWeekIndex);
+            }
+
+            // Update Calendar Days (Red for current day, Grey for others)
+            UpdateCalendarDays();
+        }
+
+        private void UpdateDayOfWeekHighlight(int currentDayOfWeek)
+        {
             for (int i = 0; i < dayOfWeekTexts.Count; i++)
             {
-                if (dayOfWeekTexts[i] != null)
+                if (i == currentDayOfWeek)
                 {
-                    dayOfWeekTexts[i].color = (i == dayOfWeekIndex) ? Color.green : Color.white;
+                    dayOfWeekTexts[i].color = Color.green; // Highlight current day in green
                 }
-            }
-
-            // Update Calendar Grid
-            for (int i = 0; i < calendarDays.Count; i++)
-            {
-                var renderer = calendarDays[i].GetComponent<SpriteRenderer>();
-                if (renderer != null)
+                else
                 {
-                    renderer.color = (i == day - 1) ? Color.green : Color.white;
+                    dayOfWeekTexts[i].color = Color.white; // Other days in white
                 }
             }
         }
+
+        private void UpdateCalendarDays()
+        {
+            for (int i = 0; i < calendarDays.Count; i++)
+            {
+                // Check if this day in the prefab list matches the current day
+                var dayImage = calendarDayImages[i];
+
+                // Adjust for 1-indexed day (days start from 1)
+                if (i + 1 == day)
+                {
+                    dayImage.color = Color.red; // Highlight the current day in red
+                }
+                else
+                {
+                    dayImage.color = Color.grey; // Other days in grey
+                }
+            }
+        }
+
 
         private string GetFormattedDate()
         {
@@ -194,10 +224,24 @@ namespace Calendar
             return formattedDate;
         }
 
+        private int GetWeekOfYear(int year, int month, int day)
+        {
+            // Get the DateTime of the current day
+            DateTime date = new DateTime(year, month, day);
+            // Return the week number in the year
+            System.Globalization.CultureInfo cultureInfo = System.Globalization.CultureInfo.CurrentCulture;
+            return cultureInfo.Calendar.GetWeekOfYear(date, System.Globalization.CalendarWeekRule.FirstDay, DayOfWeek.Sunday);
+        }
+
         #region Public Methods
         public void LinkCalendarDays(List<GameObject> days)
         {
             calendarDays = days;
+        }
+
+        public void LinkCalendarDayImages(List<SpriteRenderer> dayImages)
+        {
+            calendarDayImages = dayImages;
         }
 
         public void LinkDayOfWeekTexts(List<TextMeshProUGUI> dayTexts)
