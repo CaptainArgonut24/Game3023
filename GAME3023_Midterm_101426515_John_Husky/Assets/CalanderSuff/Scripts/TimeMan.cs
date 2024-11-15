@@ -28,11 +28,21 @@ namespace Calendar
         [SerializeField] private List<GameObject> calendarDays;
 
         [Header("Tick Settings")]
-        [SerializeField] private int TickIncrease = 1;
+        [SerializeField] private int TickIncreaseMinutes = 1;
         [SerializeField] private float TimeBetweenTicks = 0.5f;
         private float currentTickTime = 0f;
 
         private string[] dayNames = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
+        private string[] monthNames =
+        {
+            "January", "February", "March", "April", "May", "June",
+            "July", "August", "September", "October", "November", "December"
+        };
+
+        private int[] daysInMonths =
+        {
+            31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31
+        };
 
         #endregion
 
@@ -54,11 +64,12 @@ namespace Calendar
 
         private void AdvanceTime()
         {
-            minute += TickIncrease;
+            // Add minutes and handle overflow
+            minute += TickIncreaseMinutes;
 
             if (minute >= 60)
             {
-                minute = 0;
+                minute -= 60;
                 hour++;
 
                 if (hour >= 24)
@@ -73,9 +84,13 @@ namespace Calendar
 
         private void AdvanceDay()
         {
+            // Add day and handle month overflow
             day++;
 
-            if (day > 28)
+            // Check for leap year adjustment in February
+            int maxDaysInMonth = (month == 2 && IsLeapYear(year)) ? 29 : daysInMonths[month - 1];
+
+            if (day > maxDaysInMonth)
             {
                 day = 1;
                 month++;
@@ -88,21 +103,45 @@ namespace Calendar
             }
         }
 
+        private bool IsLeapYear(int year)
+        {
+            return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+        }
+
         private void UpdateUI()
         {
-            // Update Date, Month, and Year
-            dateText.text = $"Date: {day:D2}";
-            monthText.text = $"Month: {month:D2}";
-            yearText.text = $"Year: {year}";
+            // Update Date in MM/DD/YYYY format
+            if (dateText != null)
+            {
+                dateText.text = $"{month:D2}/{day:D2}/{year}";
+            }
+
+            // Update Month Name
+            if (monthText != null)
+            {
+                monthText.text = monthNames[month - 1];
+            }
+
+            // Update Year
+            if (yearText != null)
+            {
+                yearText.text = $"Year: {year}";
+            }
 
             // Update Week and Day
             int dayOfWeekIndex = (day - 1) % 7;
-            weekText.text = $"Day: {dayNames[dayOfWeekIndex]}";
+            if (weekText != null)
+            {
+                weekText.text = $"Day: {dayNames[dayOfWeekIndex]}";
+            }
 
             // Update day-of-week text colors
             for (int i = 0; i < dayOfWeekTexts.Count; i++)
             {
-                dayOfWeekTexts[i].color = (i == dayOfWeekIndex) ? Color.green : Color.white;
+                if (dayOfWeekTexts[i] != null)
+                {
+                    dayOfWeekTexts[i].color = (i == dayOfWeekIndex) ? Color.green : Color.white;
+                }
             }
 
             // Update Calendar Grid
