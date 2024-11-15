@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 namespace Calender
 {
-    public class TimeMan : MonoBehaviour
+    public class TimeMan: MonoBehaviour
     {
         #region Variables
         [Header("Date and Time Settings")]
@@ -201,6 +201,11 @@ namespace Calender
         }
 
         #endregion
+
+        public bool IsNight()
+        {
+            throw new NotImplementedException();
+        }
     }
 
     #region Enums
