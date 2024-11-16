@@ -37,13 +37,20 @@ namespace Calendar
         [SerializeField] private float TimeBetweenTicks = 0.5f;
         private float currentTickTime = 0f;
 
-        [Header("Weather & Event System")]
-        [SerializeField] private GameObject currentWeather;
-        [SerializeField] private GameObject weatherForecast;
-        [SerializeField] private GameObject currentWaterImage;
-        [SerializeField] private GameObject season;
-        [SerializeField] private List<GameObject> currentEventList;  // List of events for the current month or day
-        [SerializeField] private List<GameObject> upcomingEventList; // List of upcoming events
+        [Header("Weather System")]
+        [SerializeField] private List<Sprite> dayWeatherSprites; // 10 for day weather
+        [SerializeField] private List<Sprite> nightWeatherSprites; // 10 for night weather
+        [SerializeField] private GameObject[] weatherObjects; // Array to hold weather  GameObjects
+        [SerializeField] private GameObject[] temperatureTextObjects; // Array to hold temperature text GameObjects
+        [SerializeField] private GameObject[] weatherTypeTextObjects; // Array to hold weather type text GameObjects
+        [SerializeField] private GameObject[] seasonTextObjects; // Array to hold season text GameObjects
+        [SerializeField] private GameObject[] forecastTextObjects; // Array to hold forecast text GameObjects
+
+
+
+        [SerializeField] private GameObject weatherDisplay; // To display weather-related data (e.g., temperature, weather type)
+
+
 
         [System.Serializable]
         public class CalendarEvent
@@ -54,39 +61,12 @@ namespace Calendar
             public int eventMonth; // The month of the event (1-12)
             public int eventYear;  // The year of the event (e.g., 2024)
         }
-        [Header("Events")]
-        [SerializeField] private List<CalendarEvent> calendarEvents;  // A list of events for the calendar
-
+        
 
         // Assign events to the calendar based on the current date
-        private void AssignEventsToCalendar()
-        {
-            foreach (CalendarEvent calendarEvent in calendarEvents)
-            {
-                if (calendarEvent.eventMonth == month && calendarEvent.eventYear == year)
-                {
-                    // Check if the event's day matches the current day in the calendar
-                    if (calendarEvent.eventDay == day)
-                    {
-                        DisplayCurrentEvent(calendarEvent);
-                    }
-                    else if (calendarEvent.eventDay > day)
-                    {
-                        upcomingEventList.Add(CreateEventObject(calendarEvent));
-                    }
-                }
-            }
-        }
+        
 
-        private void DisplayCurrentEvent(CalendarEvent calendarEvent)
-        {
-            // Display or update the UI to show the current event's details (weather, season, etc.)
-            currentEventList.Clear();
-            GameObject eventObject = CreateEventObject(calendarEvent);
-            currentEventList.Add(eventObject);
-            // Optionally update weather, water images, or other event-related UI elements
-            UpdateWeatherAndSeasonUI(calendarEvent);
-        }
+       
 
         private GameObject CreateEventObject(CalendarEvent calendarEvent)
         {
@@ -97,22 +77,7 @@ namespace Calendar
             return eventObject;
         }
 
-        private void UpdateWeatherAndSeasonUI(CalendarEvent calendarEvent)
-        {
-            // Update weather, season, or other details based on the event
-            if (calendarEvent.eventName.Contains("Rain"))
-            {
-                // Update to rainy weather
-                currentWeather.SetActive(true);
-                weatherForecast.SetActive(false);
-                currentWaterImage.SetActive(true);
-            }
-            else if (calendarEvent.eventName.Contains("Summer"))
-            {
-                // Update to summer season
-                season.SetActive(true);
-            }
-        }
+       
 
 
 
@@ -143,8 +108,8 @@ namespace Calendar
         private void Start()
         {
             UpdateUI();
-            AssignEventsToCalendar();
         }
+
 
         private void Update()
         {
@@ -364,6 +329,134 @@ namespace Calendar
             DateTime date = new DateTime(year, month, day);
             System.Globalization.Calendar cal = System.Globalization.CultureInfo.InvariantCulture.Calendar;
             return cal.GetWeekOfYear(date, System.Globalization.CalendarWeekRule.FirstDay, DayOfWeek.Sunday);
+        }
+    }
+
+    public class WeatherManager : MonoBehaviour
+    {
+        [Header("Weather System")]
+        [SerializeField] private List<Sprite> dayWeatherSprites; // 10 for day weather
+        [SerializeField] private List<Sprite> nightWeatherSprites; // 10 for night weather
+        [SerializeField]
+        private List<string> weatherTypes = new List<string>
+        {
+            "Clear", "Partly Cloudy", "Rain", "Thunder", "Sleet", "Snow", "ThunderSnow",
+            "Cloudy", "Fog", "Tornado"
+        };
+        [SerializeField] private GameObject[] weatherObjects; // Array to hold weather GameObjects
+        [SerializeField] private GameObject[] temperatureTextObjects; // Array to hold temperature text GameObjects
+        [SerializeField] private GameObject[] weatherTypeTextObjects; // Array to hold weather type text GameObjects
+        [SerializeField] private GameObject[] seasonTextObjects; // Array to hold season text GameObjects
+        [SerializeField] private GameObject[] forecastTextObjects; // Array to hold forecast text GameObjects
+
+        private string currentWeather;
+        private string currentSeason;
+        private List<string> dailyForecast = new List<string>();
+
+        private TimeMan timeMan; // Reference to TimeMan script
+
+        void Start()
+        {
+            timeMan = GetComponent<TimeMan>();
+            UpdateWeather();
+        }
+
+        void Update()
+        {
+            UpdateWeather();
+        }
+
+        private void UpdateWeather()
+        {
+            // Determine current weather based on time and season
+            currentWeather = GetWeatherForCurrentDay();
+
+            // Get the current season
+            currentSeason = GetSeasonForCurrentMonth();
+
+            // Update weather and season displays
+            UpdateWeatherUI();
+            UpdateSeasonUI();
+            UpdateForecastUI();
+        }
+
+        private string GetWeatherForCurrentDay()
+        {
+            // Randomly select a weather type from the list
+            return weatherTypes[UnityEngine.Random.Range(0, weatherTypes.Count)];
+        }
+
+        private string GetSeasonForCurrentMonth()
+        {
+            // Determine season based on the current month
+            if (timeMan.month >= 3 && timeMan.month <= 5)
+                return "Spring";
+            else if (timeMan.month >= 6 && timeMan.month <= 8)
+                return "Summer";
+            else if (timeMan.month >= 9 && timeMan.month <= 11)
+                return "Fall";
+            else
+                return "Winter";
+        }
+
+        private void UpdateWeatherUI()
+        {
+            // Update weather objects and text
+            int weatherIndex = UnityEngine.Random.Range(0, dayWeatherSprites.Count);
+            foreach (var obj in weatherObjects)
+            {
+                obj.GetComponent<Image>().sprite = dayWeatherSprites[weatherIndex];
+            }
+
+            foreach (var textObj in weatherTypeTextObjects)
+            {
+                textObj.GetComponent<TextMeshProUGUI>().text = currentWeather;
+            }
+
+            foreach (var tempObj in temperatureTextObjects)
+            {
+                tempObj.GetComponent<TextMeshProUGUI>().text = "Temperature: " + GetTemperature() + "°C";
+            }
+        }
+
+        private void UpdateSeasonUI()
+        {
+            // Update season text
+            foreach (var seasonText in seasonTextObjects)
+            {
+                seasonText.GetComponent<TextMeshProUGUI>().text = "Season: " + currentSeason;
+            }
+        }
+
+        private void UpdateForecastUI()
+        {
+            // Update daily forecast text
+            dailyForecast.Clear();
+            for (int i = 0; i < 7; i++)  // 7-day forecast
+            {
+                dailyForecast.Add(weatherTypes[UnityEngine.Random.Range(0, weatherTypes.Count)]);
+            }
+
+            for (int i = 0; i < forecastTextObjects.Length; i++)
+            {
+                if (i < dailyForecast.Count)
+                {
+                    forecastTextObjects[i].GetComponent<TextMeshProUGUI>().text = "Day " + (i + 1) + ": " + dailyForecast[i];
+                }
+            }
+        }
+
+        private string GetTemperature()
+        {
+            // Simple temperature calculation based on season
+            if (currentSeason == "Winter")
+                return UnityEngine.Random.Range(-10, 5).ToString();
+            else if (currentSeason == "Spring")
+                return UnityEngine.Random.Range(5, 15).ToString();
+            else if (currentSeason == "Summer")
+                return UnityEngine.Random.Range(20, 35).ToString();
+            else // Fall
+                return UnityEngine.Random.Range(10, 20).ToString();
         }
     }
 }
