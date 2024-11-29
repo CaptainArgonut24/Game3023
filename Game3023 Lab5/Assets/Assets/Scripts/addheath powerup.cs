@@ -14,6 +14,11 @@ public class CollectibleItem : MonoBehaviour
             // Add points to the player's score
             PlayerScore.Instance.AddPoints(points);
 
+            // Increment heal value (you can change this to another stat if needed)
+            PlayerScore.Instance.IncrementHeal(1); // You can modify this value as needed
+            PlayerScore.Instance.IncrementShield(1);
+            PlayerScore.Instance.IncrementNukes(1);
+
             // Optionally, destroy the item after collecting
             Destroy(gameObject);
         }
