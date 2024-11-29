@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
@@ -16,11 +15,11 @@ public class BattleSystem : MonoBehaviour
     public Button actionButton3;
     public Button actionButton4;
     public GameObject battleUIParent; // Parent object for the battle UI
+    public GameObject triggerGameObject; // The GameObject to remove when battle ends
 
     [Header("Player Stats")]
     public int playerHP = 100;
     public int enemyHP = 100;
-    public int sceneToReturnTo = 0; // Set the scene index to return to
 
     private bool isPlayerTurn = true;
     private string[] randomDialogMessages = {
@@ -105,13 +104,13 @@ public class BattleSystem : MonoBehaviour
     {
         if (enemyHP <= 0)
         {
-            DisplayMessage("Enemy defeated! Returning to menu.");
+            DisplayMessage("Enemy defeated!");
             Invoke("EndBattle", 3f);
             return true;
         }
         else if (playerHP <= 0)
         {
-            DisplayMessage("Player was defeated! Returning to menu.");
+            DisplayMessage("Player was defeated!");
             Invoke("EndBattle", 3f);
             return true;
         }
@@ -124,7 +123,11 @@ public class BattleSystem : MonoBehaviour
         {
             Destroy(battleUIParent); // Remove the UI by destroying its parent
         }
-        SceneManager.LoadScene(sceneToReturnTo);
+
+        if (triggerGameObject != null)
+        {
+            Destroy(triggerGameObject); // Remove the specified trigger object
+        }
     }
 
     void DisplayMessage(string message)
