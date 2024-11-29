@@ -17,6 +17,10 @@ public class BattleSystem : MonoBehaviour
     public GameObject battleUIParent; // Parent object for the battle UI
     public GameObject triggerGameObject; // The GameObject to remove when battle ends
 
+    [Header("Enemy Visuals")]
+    public List<Sprite> enemyImages; // List of enemy images as Sprites
+    public Image enemyImageDisplay; // UI Image component to display the enemy image
+
     [Header("Player Stats")]
     public int playerHP = 100;
     public int enemyHP = 100;
@@ -32,6 +36,7 @@ public class BattleSystem : MonoBehaviour
 
     void Start()
     {
+        DisplayRandomEnemyImage(); // Display a random enemy image at the start
         UpdateUI();
         InitializeButtons();
         DisplayMessage("Battle Start! Choose an action.");
@@ -59,6 +64,21 @@ public class BattleSystem : MonoBehaviour
         actionButton2.GetComponentInChildren<TextMeshProUGUI>().text = "Flame Thrower";
         actionButton3.GetComponentInChildren<TextMeshProUGUI>().text = "Water Gun";
         actionButton4.GetComponentInChildren<TextMeshProUGUI>().text = "Defend";
+    }
+
+    void DisplayRandomEnemyImage()
+    {
+        if (enemyImages.Count > 0)
+        {
+            // Pick a random enemy image from the list
+            int randomIndex = Random.Range(0, enemyImages.Count);
+            enemyImageDisplay.sprite = enemyImages[randomIndex]; // Assign the sprite
+            enemyImageDisplay.enabled = true; // Ensure the Image component is enabled
+        }
+        else
+        {
+            Debug.LogWarning("Enemy image list is empty! Please assign enemy images in the Inspector.");
+        }
     }
 
     void OnAttackButtonClicked(string attackName, int damage)
