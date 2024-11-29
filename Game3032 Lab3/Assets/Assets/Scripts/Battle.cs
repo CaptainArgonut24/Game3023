@@ -3,17 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class BattleSystem : MonoBehaviour
 {
     [Header("UI Elements")]
-    public Text dialogText; // Text for displaying dialog messages
-    public Text playerHPText; // Player 1 health display
-    public Text enemyHPText; // Player 2 health display
+    public TextMeshProUGUI dialogText; // Text for displaying dialog messages
+    public TextMeshProUGUI playerHPText; // Player 1 health display
+    public TextMeshProUGUI enemyHPText; // Player 2 health display
     public Button actionButton1;
     public Button actionButton2;
     public Button actionButton3;
     public Button actionButton4;
+    public GameObject battleUIParent; // Parent object for the battle UI
 
     [Header("Player Stats")]
     public int playerHP = 100;
@@ -21,6 +23,13 @@ public class BattleSystem : MonoBehaviour
     public int sceneToReturnTo = 0; // Set the scene index to return to
 
     private bool isPlayerTurn = true;
+    private string[] randomDialogMessages = {
+        "Keep going!",
+        "You can do this!",
+        "What a move!",
+        "Watch out!",
+        "A critical moment!"
+    };
 
     void Start()
     {
@@ -47,10 +56,10 @@ public class BattleSystem : MonoBehaviour
 
     void UpdateButtonTexts()
     {
-        actionButton1.GetComponentInChildren<Text>().text = "Tackle";
-        actionButton2.GetComponentInChildren<Text>().text = "Flame Thrower";
-        actionButton3.GetComponentInChildren<Text>().text = "Water Gun";
-        actionButton4.GetComponentInChildren<Text>().text = "Defend";
+        actionButton1.GetComponentInChildren<TextMeshProUGUI>().text = "Tackle";
+        actionButton2.GetComponentInChildren<TextMeshProUGUI>().text = "Flame Thrower";
+        actionButton3.GetComponentInChildren<TextMeshProUGUI>().text = "Water Gun";
+        actionButton4.GetComponentInChildren<TextMeshProUGUI>().text = "Defend";
     }
 
     void OnAttackButtonClicked(string attackName, int damage)
@@ -88,7 +97,7 @@ public class BattleSystem : MonoBehaviour
 
         if (!CheckBattleOutcome())
         {
-            DisplayMessage("Your turn! Choose an action.");
+            DisplayMessage(GetRandomDialogMessage() + " Your turn! Choose an action.");
         }
     }
 
@@ -97,25 +106,34 @@ public class BattleSystem : MonoBehaviour
         if (enemyHP <= 0)
         {
             DisplayMessage("Enemy defeated! Returning to menu.");
-            Invoke("ReturnToScene", 3f);
+            Invoke("EndBattle", 3f);
             return true;
         }
         else if (playerHP <= 0)
         {
             DisplayMessage("Player was defeated! Returning to menu.");
-            Invoke("ReturnToScene", 3f);
+            Invoke("EndBattle", 3f);
             return true;
         }
         return false;
     }
 
-    void ReturnToScene()
+    void EndBattle()
     {
+        if (battleUIParent != null)
+        {
+            Destroy(battleUIParent); // Remove the UI by destroying its parent
+        }
         SceneManager.LoadScene(sceneToReturnTo);
     }
 
     void DisplayMessage(string message)
     {
         dialogText.text = message;
+    }
+
+    string GetRandomDialogMessage()
+    {
+        return randomDialogMessages[Random.Range(0, randomDialogMessages.Length)];
     }
 }
