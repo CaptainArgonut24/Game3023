@@ -25,14 +25,13 @@ public class PlayerScore : MonoBehaviour
     public TextMeshProUGUI nukesText;     // Text for displaying nukes
     public TextMeshProUGUI shieldText;    // Text for displaying shields
 
-    [Header("Player Stats")]
-    private int score = 0;
-    private int battles = 0;
-    private int wins = 0;
-    private int lost = 0;
-    private int heal = 0;
-    private int nukes = 0;
-    private int shield = 0;
+    [Header("Player Stats")] public static int score = 0;
+    public static int battles = 0;
+    public static int wins = 0;
+    public static int lost = 0;
+    public static int heal = 0;
+    public static int nukes = 0;
+    public static int shield = 0;
 
     private void Awake()
     {
