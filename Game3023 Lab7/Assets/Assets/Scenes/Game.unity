@@ -22625,6 +22625,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: winMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: 3d27816dbbfba0d44a09e6c74653d19c, type: 3}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: loseMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: 22b9c14baf559ad419f7ef36b6cfeaaf, type: 3}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: dialogText
       value: 
       objectReference: {fileID: 595624893}
@@ -22636,6 +22644,10 @@ PrefabInstance:
       propertyPath: nukeButton
       value: 
       objectReference: {fileID: 894114763}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: battleMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: 57407c5326fa5204182991c42318ec3b, type: 3}
     - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: enemyHPText
       value: 
@@ -22689,13 +22701,41 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1572753326}
     - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: winLines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: hitSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: loseLines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: winSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: enemyNames.Array.size
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: loseSounds.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: enemyImages.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: hitSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4b752f45aaa58014187ee2f1a55979fb, type: 3}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: winSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 36179f711db2afe41819d1bbfa4ba43d, type: 3}
     - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: enemyNames.Array.data[0]
       value: noob
@@ -22709,6 +22749,10 @@ PrefabInstance:
       value: sin
       objectReference: {fileID: 0}
     - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: loseSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: f5e7a295b48bad944a60c87f3c11b61f, type: 3}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: enemyImages.Array.data[0]
       value: 
       objectReference: {fileID: 21300000, guid: 3bec9dc2f66fc8b46b2a0c94fdf2c967, type: 3}
@@ -22716,6 +22760,14 @@ PrefabInstance:
       propertyPath: enemyImages.Array.data[1]
       value: 
       objectReference: {fileID: 21300000, guid: d9636dd3045f1f543a4f5097fc762dd8, type: 3}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: preBattleSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: preBattleSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: d6733f0fc970cdd4e833254e6d7499b9, type: 3}
     - target: {fileID: 8335112622440290590, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: m_SizeDelta.y
       value: 199.63
