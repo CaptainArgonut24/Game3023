@@ -6,7 +6,7 @@ public class CollectibleItem : MonoBehaviour
 {
     public int points = 10; // Points to add when the item is collected
     public AudioClip pickupSound; // Sound to play when the item is collected
-    public string[] randomSoundLines; // Array of random sound lines
+    public AudioClip[] randomSoundClips; // Array of sound clips to play randomly
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -27,11 +27,14 @@ public class CollectibleItem : MonoBehaviour
                 AudioSource.PlayClipAtPoint(pickupSound, transform.position);
             }
 
-            // Play a random sound line
-            if (randomSoundLines != null && randomSoundLines.Length > 0)
+            // Play a random sound clip
+            if (randomSoundClips != null && randomSoundClips.Length > 0)
             {
-                string randomLine = randomSoundLines[Random.Range(0, randomSoundLines.Length)];
-                Debug.Log(randomLine); // Replace this with a method to play the sound line if applicable
+                AudioClip randomClip = randomSoundClips[Random.Range(0, randomSoundClips.Length)];
+                if (randomClip != null)
+                {
+                    AudioSource.PlayClipAtPoint(randomClip, transform.position);
+                }
             }
 
             // Optionally, destroy the item after collecting

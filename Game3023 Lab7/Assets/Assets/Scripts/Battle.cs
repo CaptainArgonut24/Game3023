@@ -31,16 +31,21 @@ public class BattleSystem : MonoBehaviour
     public int enemyHP = 100;
     private int shieldRounds = 0;
 
-    [Header("Audio")]
-    public AudioSource backgroundMusicSource;
-    public AudioSource battleMusicSource;
-    public AudioSource hitSoundSource;
-    public AudioSource winSoundSource;
-    public AudioSource loseSoundSource;
+    [Header("Audio Sources")]
+    public AudioSource audioSourceA; // Background music
+    public AudioSource audioSourceB; // Battle music
+    public AudioSource audioSourceC; // Win/lose music
+
+    [Header("Audio Clips")]
+    public AudioClip backgroundMusicClip;
+    public AudioClip battleMusicClip;
+    public AudioClip winMusicClip;
+    public AudioClip loseMusicClip;
     public AudioClip[] preBattleSounds;
     public AudioClip[] winLineSounds;
     public AudioClip[] loseLineSounds;
     public AudioClip[] damageSounds;
+    public AudioClip hitSound;
     public AudioClip inactivitySound;
 
     private bool isPlayerTurn = true;
@@ -219,33 +224,37 @@ public class BattleSystem : MonoBehaviour
 
     void PlayBattleMusic()
     {
-        if (backgroundMusicSource != null)
+        if (audioSourceA != null)
         {
-            backgroundMusicSource.Pause();
+            audioSourceA.Pause(); // Pause background music
         }
 
-        if (battleMusicSource != null)
+        if (audioSourceB != null)
         {
-            battleMusicSource.Play();
+            audioSourceB.clip = battleMusicClip;
+            audioSourceB.Play();
         }
     }
 
     void ResumeBackgroundMusic()
     {
-        if (battleMusicSource != null)
+        if (audioSourceB != null)
         {
-            battleMusicSource.Stop();
+            audioSourceB.Stop(); // Stop battle music
         }
 
-        if (backgroundMusicSource != null)
+        if (audioSourceA != null)
         {
-            backgroundMusicSource.UnPause();
+            audioSourceA.UnPause(); // Resume background music
         }
     }
 
     void EndBattle(bool playerWon)
     {
-        ResumeBackgroundMusic();
+        if (audioSourceB != null)
+        {
+            audioSourceB.Stop(); // Stop battle music
+        }
 
         if (playerWon)
         {
@@ -257,7 +266,6 @@ public class BattleSystem : MonoBehaviour
         {
             PlayLoseSound();
             DisplayMessage("You lost...");
-            // If the player loses, do not destroy the UI object
             AddPoints();
         }
     }
@@ -265,7 +273,6 @@ public class BattleSystem : MonoBehaviour
     void AddPointsAndCloseUI()
     {
         AddPoints();
-        // Close UI here
         if (battleUIParent != null)
         {
             Destroy(battleUIParent);
@@ -274,6 +281,11 @@ public class BattleSystem : MonoBehaviour
         if (triggerGameObject != null)
         {
             Destroy(triggerGameObject);
+        }
+
+        if (audioSourceA != null)
+        {
+            audioSourceA.UnPause(); // Unmute background music when UI closes
         }
     }
 
@@ -309,63 +321,65 @@ public class BattleSystem : MonoBehaviour
 
     void PlayHitSound()
     {
-        if (hitSoundSource != null)
+        if (audioSourceB != null && hitSound != null)
         {
-            hitSoundSource.Play();
+            audioSourceB.PlayOneShot(hitSound);
         }
     }
 
     void PlayDamageSound()
     {
-        if (damageSounds.Length > 0)
+        if (audioSourceB != null && damageSounds.Length > 0)
         {
             int randomIndex = Random.Range(0, damageSounds.Length);
-            AudioSource.PlayClipAtPoint(damageSounds[randomIndex], transform.position);
+            audioSourceB.PlayOneShot(damageSounds[randomIndex]);
         }
     }
 
     void PlayWinSound()
     {
-        if (winSoundSource != null)
+        if (audioSourceC != null && winMusicClip != null)
         {
-            winSoundSource.Play();
+            audioSourceC.clip = winMusicClip;
+            audioSourceC.Play();
             PlayRandomWinLineSound();
         }
     }
 
     void PlayLoseSound()
     {
-        if (loseSoundSource != null)
+        if (audioSourceC != null && loseMusicClip != null)
         {
-            loseSoundSource.Play();
+            audioSourceC.clip = loseMusicClip;
+            audioSourceC.Play();
             PlayRandomLoseLineSound();
         }
     }
 
     void PlayRandomPreBattleSound()
     {
-        if (preBattleSounds.Length > 0)
+        if (audioSourceB != null && preBattleSounds.Length > 0)
         {
             int randomIndex = Random.Range(0, preBattleSounds.Length);
-            AudioSource.PlayClipAtPoint(preBattleSounds[randomIndex], transform.position);
+            audioSourceB.PlayOneShot(preBattleSounds[randomIndex]);
         }
     }
 
     void PlayRandomWinLineSound()
     {
-        if (winLineSounds.Length > 0)
+        if (audioSourceC != null && winLineSounds.Length > 0)
         {
             int randomIndex = Random.Range(0, winLineSounds.Length);
-            AudioSource.PlayClipAtPoint(winLineSounds[randomIndex], transform.position);
+            audioSourceC.PlayOneShot(winLineSounds[randomIndex]);
         }
     }
 
     void PlayRandomLoseLineSound()
     {
-        if (loseLineSounds.Length > 0)
+        if (audioSourceC != null && loseLineSounds.Length > 0)
         {
             int randomIndex = Random.Range(0, loseLineSounds.Length);
-            AudioSource.PlayClipAtPoint(loseLineSounds[randomIndex], transform.position);
+            audioSourceC.PlayOneShot(loseLineSounds[randomIndex]);
         }
     }
 
@@ -383,16 +397,17 @@ public class BattleSystem : MonoBehaviour
 
     bool IsPlayerInactive()
     {
-        // Add your logic to determine player inactivity here
-        // For example, if no button clicks or actions are detected within a given time frame
+        
+        //  if no button clicks or actions are detected within a given time frame
         return true;
     }
 
     void PlayInactivitySound()
     {
-        if (inactivitySound != null)
+        if (audioSourceB != null && inactivitySound != null)
         {
-            AudioSource.PlayClipAtPoint(inactivitySound, transform.position);
+            audioSourceB.PlayOneShot(inactivitySound);
         }
     }
 }
+
