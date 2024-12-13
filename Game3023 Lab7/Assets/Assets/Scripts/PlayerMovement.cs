@@ -9,11 +9,21 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movement;
     private Animator animator;
 
+    public AudioSource walkingSound;  // Reference to the walking sound
+    public AudioClip walkingClip;     // Walking sound clip
+    private bool isWalkingSoundPlaying = false;  // Flag to check if sound is already playing
+
     void Start()
     {
         // Get the Rigidbody2D and Animator components
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        // Ensure the AudioSource component is set up
+        if (walkingSound == null)
+        {
+            walkingSound = GetComponent<AudioSource>();
+        }
     }
 
     void Update()
@@ -27,6 +37,20 @@ public class PlayerMovement : MonoBehaviour
 
         // Update the animator parameter to switch between idle and walking animations
         animator.SetBool("isMoving", isMoving);
+
+        // Play walking sound if the player is moving and sound is not already playing
+        if (isMoving && !isWalkingSoundPlaying)
+        {
+            walkingSound.clip = walkingClip; // Set the walking sound clip
+            walkingSound.loop = true;        // Loop the sound as long as the player is moving
+            walkingSound.Play();
+            isWalkingSoundPlaying = true;
+        }
+        else if (!isMoving && isWalkingSoundPlaying)
+        {
+            walkingSound.Stop();
+            isWalkingSoundPlaying = false;
+        }
     }
 
     void FixedUpdate()
