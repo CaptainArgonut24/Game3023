@@ -21,10 +21,11 @@ public class BattleSystem : MonoBehaviour
     public GameObject battleUIParent;
     public GameObject triggerGameObject;
 
-    [Header("Enemy Visuals")]
+    [Header("Visual Elements")]
     public List<Sprite> enemyImages;
     public Image enemyImageDisplay;
     public List<string> enemyNames;
+    public Image playerImageDisplay; // Added player image
 
     [Header("Player Stats")]
     public int playerHP = 100;
@@ -56,6 +57,8 @@ public class BattleSystem : MonoBehaviour
         "Watch out!",
         "A critical moment!"
     };
+
+    private float lastActionTime; // Tracks the time of the last player action
 
     void Start()
     {
@@ -116,6 +119,11 @@ public class BattleSystem : MonoBehaviour
     {
         if (!isPlayerTurn) return;
 
+        lastActionTime = Time.time; // Update last action time
+        if (damage > 0)
+        {
+            StartCoroutine(FlashImageColor(enemyImageDisplay, Color.red, 1f)); // Flash red on hit
+        }
         enemyHP -= damage;
         PlayHitSound();
         DisplayMessage("Player used " + attackName + "! Enemy took " + damage + " damage.");
@@ -131,6 +139,10 @@ public class BattleSystem : MonoBehaviour
         DisplayMessage("Enemy's turn!");
 
         int damage = Random.Range(10, 30);
+        if (damage > 0)
+        {
+            StartCoroutine(FlashImageColor(playerImageDisplay, Color.red, 1f)); // Flash red on hit for player
+        }
         playerHP -= damage;
         PlayDamageSound();
         DisplayMessage("Enemy dealt " + damage + " damage!");
@@ -146,6 +158,7 @@ public class BattleSystem : MonoBehaviour
     {
         isPlayerTurn = true;
         DisplayMessage("Your turn! Choose an action.");
+        lastActionTime = Time.time; // Update last action time
     }
 
     void UseShield()
@@ -153,6 +166,7 @@ public class BattleSystem : MonoBehaviour
         int shields = PlayerScore.Instance.GetShield();
         if (shields > 0)
         {
+            lastActionTime = Time.time; // Update last action time
             shieldRounds = 4;
             PlayerScore.Instance.DecrementShield(1);
             DisplayMessage("Player used Shield! Protected for 4 rounds.");
@@ -164,6 +178,7 @@ public class BattleSystem : MonoBehaviour
     {
         if (!isPlayerTurn) return;
 
+        lastActionTime = Time.time; // Update last action time
         DisplayMessage("Player used Defend! Reducing damage for next attack.");
         isPlayerTurn = false;
 
@@ -175,6 +190,7 @@ public class BattleSystem : MonoBehaviour
         int heal = PlayerScore.Instance.GetHeal();
         if (heal > 0 && playerHP < 100)
         {
+            lastActionTime = Time.time; // Update last action time
             playerHP = 100;
             PlayerScore.Instance.DecrementHeal(1);
             DisplayMessage("Player used Heal! Restored to full health.");
@@ -188,6 +204,7 @@ public class BattleSystem : MonoBehaviour
         int nukes = PlayerScore.Instance.GetNukes();
         if (nukes > 0)
         {
+            lastActionTime = Time.time; // Update last action time
             enemyHP -= 50;
             PlayerScore.Instance.DecrementNukes(1);
             DisplayMessage("Player used Nuke! Enemy took massive damage.");
@@ -260,7 +277,7 @@ public class BattleSystem : MonoBehaviour
         {
             PlayWinSound();
             DisplayMessage("Congrats, you won!");
-            Invoke(nameof(AddPointsAndCloseUI), 10f);
+            Invoke(nameof(RemoveUI), 16f);
         }
         else
         {
@@ -270,7 +287,7 @@ public class BattleSystem : MonoBehaviour
         }
     }
 
-    void AddPointsAndCloseUI()
+    void RemoveUI()
     {
         AddPoints();
         if (battleUIParent != null)
@@ -285,7 +302,7 @@ public class BattleSystem : MonoBehaviour
 
         if (audioSourceA != null)
         {
-            audioSourceA.UnPause(); // Unmute background music when UI closes
+            audioSourceA.UnPause(); // Resume background music
         }
     }
 
@@ -397,9 +414,8 @@ public class BattleSystem : MonoBehaviour
 
     bool IsPlayerInactive()
     {
-        
-        //  if no button clicks or actions are detected within a given time frame
-        return true;
+        // Check if the player has been inactive for more than 30 seconds
+        return Time.time - lastActionTime > 30;
     }
 
     void PlayInactivitySound()
@@ -409,5 +425,12 @@ public class BattleSystem : MonoBehaviour
             audioSourceB.PlayOneShot(inactivitySound);
         }
     }
-}
 
+    IEnumerator FlashImageColor(Image image, Color flashColor, float duration)
+    {
+        Color originalColor = image.color;
+        image.color = flashColor;
+        yield return new WaitForSeconds(duration);
+        image.color = originalColor;
+    }
+}

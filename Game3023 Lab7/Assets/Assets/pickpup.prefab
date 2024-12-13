@@ -98,7 +98,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad3637b21d640e443b4aa14719876859, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: 10
+  points: 25
+  pickupSound: {fileID: 8300000, guid: a1b20127e6f60744f917cf6607fa91bd, type: 3}
+  randomSoundClips:
+  - {fileID: 8300000, guid: 36179f711db2afe41819d1bbfa4ba43d, type: 3}
 --- !u!61 &7135873020215644506
 BoxCollider2D:
   m_ObjectHideFlags: 0

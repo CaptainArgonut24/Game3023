@@ -7,7 +7,7 @@ public class PlaySoundOnCollision : MonoBehaviour
     public int points = 10; // Points to add when the item is collected
     public AudioClip pickupSound; // Sound to play when the item is collected
     public AudioClip[] randomSoundClips; // Array of sound clips to play randomly
-    public GameObject audioSourceObject; // GameObject with the AudioSource component
+    public AudioSource audioSource; // Reference to the AudioSource component
     public Transform soundSourcePosition; // Transform to specify the position of the sound source
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -23,19 +23,20 @@ public class PlaySoundOnCollision : MonoBehaviour
             PlayerScore.Instance.IncrementShield(1);
             PlayerScore.Instance.IncrementNukes(1);
 
-            // Play the pickup sound at the specified position
-            if (pickupSound != null && soundSourcePosition != null)
+            // Play the pickup sound using the AudioSource component
+            if (pickupSound != null)
             {
-                AudioSource.PlayClipAtPoint(pickupSound, soundSourcePosition.position);
+                audioSource.clip = pickupSound;
+                audioSource.Play();
             }
 
-            // Play a random sound clip at the specified position
-            if (randomSoundClips != null && randomSoundClips.Length > 0 && soundSourcePosition != null)
+            // Play a random sound clip using the AudioSource component
+            if (randomSoundClips != null && randomSoundClips.Length > 0)
             {
                 AudioClip randomClip = randomSoundClips[Random.Range(0, randomSoundClips.Length)];
                 if (randomClip != null)
                 {
-                    AudioSource.PlayClipAtPoint(randomClip, soundSourcePosition.position);
+                    audioSource.PlayOneShot(randomClip);
                 }
             }
 
