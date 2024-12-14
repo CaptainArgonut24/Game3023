@@ -32,6 +32,42 @@ public class PlayerScore : MonoBehaviour
     public static int heal = 0;
     public static int nukes = 0;
     public static int shield = 0;
+    public static int PU1 = 0;
+    public static int PU2 = 0;
+    public static int PU3 = 0;
+    public static int PU4 = 0;
+    public static int PU5 = 0;
+    public static int PU6 = 0;
+    public static int PU7 = 0;
+    public static int PU8 = 0;
+    public static int PU9 = 0;
+    public static int PU10 = 0;
+    public static int PU11 = 0;
+    public static int PU12 = 0;
+    public static int PU13 = 0;
+    public static int PU14 = 0;
+    public static int PU15 = 0;
+    public static int PU16 = 0;
+    public static int PU17 = 0;
+    public static int PU18 = 0;
+    public static int PU19 = 0;
+
+
+    public static int Bat1 = 0;
+    public static int Bat2 = 0;
+    public static int Bat3 = 0;
+    public static int Bat4 = 0;
+    public static int Bat5 = 0;
+    public static int Bat6 = 0;
+    public static int Bat7 = 0;
+    public static int Bat8 = 0;
+    public static int Bat9 = 0;
+    public static int Bat10 = 0;
+    public static int Bat11 = 0;
+    public static int Bat12 = 0;
+    public static int Bat13 = 0;
+    public static int Bat14 = 0;
+    public static int Bat15 = 0;
 
     private void Awake()
     {

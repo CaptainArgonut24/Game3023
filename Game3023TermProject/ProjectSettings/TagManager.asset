@@ -8,6 +8,40 @@ TagManager:
   - top
   - Dirt
   - Grass
+  - PowerUp19
+  - PowerUp18
+  - PowerUp17
+  - PowerUp16
+  - PowerUp15
+  - PowerUp14
+  - PowerUp1
+  - PowerUp13
+  - PowerUp12
+  - PowerUp11
+  - PowerUp10
+  - PowerUp9
+  - PowerUp8
+  - PowerUp7
+  - PowerUp6
+  - PowerUp5
+  - PowerUp4
+  - PowerUp3
+  - PowerUp2
+  - BattleTrigger15
+  - BattleTrigger14
+  - BattleTrigger13
+  - BattleTrigger12
+  - BattleTrigger11
+  - BattleTrigger10
+  - BattleTrigger9
+  - BattleTrigger8
+  - BattleTrigger7
+  - BattleTrigger6
+  - BattleTrigger5
+  - BattleTrigger4
+  - BattleTrigger3
+  - BattleTrigger2
+  - BattleTrigger1
   layers:
   - Default
   - TransparentFX

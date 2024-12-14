@@ -51,6 +51,15 @@ public class PlayerMovement : MonoBehaviour
             walkingSound.Stop();
             isWalkingSoundPlaying = false;
         }
+
+        // Check if the C key is pressed
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            // Increment the PlayerScore values
+            PlayerScore.Instance.IncrementHeal(25);    // Adjust the value as needed
+            PlayerScore.Instance.IncrementShield(25); // Adjust the value as needed
+            PlayerScore.Instance.IncrementNukes(25);  // Adjust the value as needed
+        }
     }
 
     void FixedUpdate()
