@@ -32,25 +32,26 @@ public class PlayerScore : MonoBehaviour
     public static int heal = 0;
     public static int nukes = 0;
     public static int shield = 0;
-    public static int PU1 = 0;
-    public static int PU2 = 0;
-    public static int PU3 = 0;
-    public static int PU4 = 0;
-    public static int PU5 = 0;
-    public static int PU6 = 0;
-    public static int PU7 = 0;
-    public static int PU8 = 0;
-    public static int PU9 = 0;
-    public static int PU10 = 0;
-    public static int PU11 = 0;
-    public static int PU12 = 0;
-    public static int PU13 = 0;
-    public static int PU14 = 0;
-    public static int PU15 = 0;
-    public static int PU16 = 0;
-    public static int PU17 = 0;
-    public static int PU18 = 0;
-    public static int PU19 = 0;
+    public static int Pu1 = 0;
+    public static int Pu2 = 0;
+    public static int Pu3 = 0;
+    public static int Pu4 = 0;
+    public static int Pu5 = 0;
+    public static int Pu6 = 0;
+    public static int Pu7 = 0;
+    public static int Pu8 = 0;
+    public static int Pu9 = 0;
+    public static int Pu10 = 0;
+    public static int Pu11 = 0;
+    public static int Pu12 = 0;
+    public static int Pu13 = 0;
+    public static int Pu14 = 0;
+    public static int Pu15 = 0;
+    public static int Pu16 = 0;
+    public static int Pu17 = 0;
+    public static int Pu18 = 0;
+    public static int Pu19 = 0;
+    public static int PowerUps = 0;
 
 
     public static int Bat1 = 0;
@@ -84,54 +85,231 @@ public class PlayerScore : MonoBehaviour
 
     private void Start()
     {
-        UpdateUI();
+        UpdateUi();
     }
 
     public void AddPoints(int points)
     {
         score += points;
-        UpdateUI();
+        UpdateUi();
     }
 
     public void IncrementBattles(int i)
     {
         battles++; // Increment battle count
-        UpdateUI(); // Update UI to reflect the new battle count
+        UpdateUi(); // Update UI to reflect the new battle count
     }
 
     public void IncrementWins(int i)
     {
         wins++;
-        UpdateUI();
+        UpdateUi();
     }
 
     public void IncrementLost(int i)
     {
         lost++;
-        UpdateUI();
+        UpdateUi();
     }
 
     public void IncrementHeal(int amount)
     {
         heal += amount;
-        UpdateUI();
+        UpdateUi();
     }
 
     public void IncrementNukes(int i)
     {
         nukes++;
-        UpdateUI();
+        UpdateUi();
     }
 
     public void IncrementShield(int i)
     {
         shield++;
-        UpdateUI();
+        UpdateUi();
     }
-    
 
+    public void IncrementB1(int i)
+    {
+        Bat1++;
+        UpdateUi();
+    }
+    public void IncrementB2(int i)
+    {
+        Bat2++;
+        UpdateUi();
+    }
+    public void IncrementB3(int i)
+    {
+        Bat3++;
+        UpdateUi();
+    }
+    public void IncrementB4(int i)
+    {
+        Bat4++;
+        UpdateUi();
+    }
+    public void IncrementB5(int i)
+    {
+        Bat5++;
+        UpdateUi();
+    }
+    public void IncrementB6(int i)
+    {
+        Bat6++;
+        UpdateUi();
+    }
+    public void IncrementB7(int i)
+    {
+        Bat7++;
+        UpdateUi();
+    }
+    public void IncrementB8(int i)
+    {
+        Bat8++;
+        UpdateUi();
+    }
+    public void IncrementB9(int i)
+    {
+        Bat9++;
+        UpdateUi();
+    }
+    public void IncrementB10(int i)
+    {
+        Bat10++;
+        UpdateUi();
+    }
+    public void IncrementB11(int i)
+    {
+        Bat11++;
+        UpdateUi();
+    }
+    public void IncrementB12(int i)
+    {
+        Bat12++;
+        UpdateUi();
+    }
+    public void IncrementB13(int i)
+    {
+        Bat13++;
+        UpdateUi();
+    }
 
-    private void UpdateUI()
+    public void IncrementB14(int i)
+    {
+        Bat14++;
+        UpdateUi();
+    }
+    public void IncrementB15(int i)
+    {
+        Bat15++;
+        UpdateUi();
+    }
+
+    public void IncrementPu1(int i)
+    {
+        Pu1++;
+        UpdateUi();
+    }
+    public void IncrementPu2(int i)
+    {
+        Pu2++;
+        UpdateUi();
+    }
+    public void IncrementPu3(int i)
+    {
+        Pu3++;
+        UpdateUi();
+    }
+    public void IncrementPu4(int i)
+    {
+        Pu4++;
+        UpdateUi();
+    }
+    public void IncrementPu5(int i)
+    {
+        Pu5++;
+        UpdateUi();
+    }
+    public void IncrementPu6(int i)
+    {
+        Pu6++;
+        UpdateUi();
+    }
+    public void IncrementPu7(int i)
+    {
+        Pu7++;
+        UpdateUi();
+    }
+    public void IncrementPu8(int i)
+    {
+        Pu8++;
+        UpdateUi();
+    }
+    public void IncrementPu9(int i)
+    {
+        Pu9++;
+        UpdateUi();
+    }
+    public void IncrementPu10(int i)
+    {
+        Pu10++;
+        UpdateUi();
+    }
+    public void IncrementPu11(int i)
+    {
+        Pu11++;
+        UpdateUi();
+    }
+    public void IncrementPu12(int i)
+    {
+        Pu12++;
+        UpdateUi();
+    }
+    public void IncrementPu13(int i)
+    {
+        Pu13++;
+        UpdateUi();
+    }
+    public void IncrementPu14(int i)
+    {
+        Pu14++;
+        UpdateUi();
+    }
+    public void IncrementPu15(int i)
+    {
+        Pu15++;
+        UpdateUi();
+    }
+    public void IncrementPu16(int i)
+    {
+        Pu16++;
+        UpdateUi();
+    }
+    public void IncrementPu17(int i)
+    {
+        Pu17++;
+        UpdateUi();
+    }
+    public void IncrementPu18(int i)
+    {
+        Pu18++;
+        UpdateUi();
+    }
+    public void IncrementPu19(int i)
+    {
+        Pu19++;
+        UpdateUi();
+    }
+
+    public void IncrementPowerups(int i)
+    {
+        PowerUps++;
+        UpdateUi();
+    }
+
+    private void UpdateUi()
     {
         if (scoreText != null)
         {

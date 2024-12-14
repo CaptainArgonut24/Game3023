@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+//using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,17 +13,21 @@ public class TilemapTriggerUI : MonoBehaviour
         // Check if the object colliding with the tilemap has the "Player" tag
         if (collision.gameObject.CompareTag("Player"))
         {
-            // Enable the UI element when the player collides with the tilemap
-            uiElement.SetActive(true);
+            if (PlayerScore.Bat1 >= 1)
+            {
+                // Destroy this GameObject
+                Destroy(gameObject);
+            }
+            else
+            {
+                PlayerScore.Instance.IncrementB1(1);
+                // Enable the UI element when the player collides with the tilemap
+                uiElement.SetActive(true);
+
+            }
+
         }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        // Disable the UI element when the player exits the collision
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            uiElement.SetActive(false);
-        }
-    }
+   
 }

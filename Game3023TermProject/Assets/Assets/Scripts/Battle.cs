@@ -288,6 +288,7 @@ public class BattleSystem : MonoBehaviour
             PlayerScore.Instance.IncrementBattles(1);
             enemyImageDisplay.enabled = false;
             Invoke(nameof(RemoveUI), 16f);
+
         }
         else
         {
@@ -298,6 +299,7 @@ public class BattleSystem : MonoBehaviour
             PlayerScore.Instance.IncrementBattles(1);
             playerImageDisplay.enabled = false;
             Invoke(nameof(RemoveUI), 16f);
+            
         }
     }
 

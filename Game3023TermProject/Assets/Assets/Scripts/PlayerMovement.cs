@@ -59,6 +59,7 @@ public class PlayerMovement : MonoBehaviour
             PlayerScore.Instance.IncrementHeal(25);    // Adjust the value as needed
             PlayerScore.Instance.IncrementShield(25); // Adjust the value as needed
             PlayerScore.Instance.IncrementNukes(25);  // Adjust the value as needed
+            PlayerScore.Instance.AddPoints(100);
         }
     }
 

@@ -15,6 +15,7 @@ using UnityEngine;
         public int nukes ;
         public int time;
         public int shield;
+        public int PowerUps;
 
 
     public int PU1;
