@@ -1550,10 +1550,10 @@ MonoBehaviour:
   - noob
   - bob
   - sin
-  - jon doe
+  - Grey
   - Bacon
-  - 1x1x1x1
-  - Just A Guy
+  - Alex
+  - Guy
   playerImageDisplay: {fileID: 753089907825645743}
   playerHP: 100
   enemyHP: 100

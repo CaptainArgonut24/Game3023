@@ -227693,6 +227693,62 @@ PrefabInstance:
       propertyPath: triggerGameObject
       value: 
       objectReference: {fileID: 1572753326}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyNames.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyImages.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyNames.Array.data[2]
+      value: Grey
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyNames.Array.data[3]
+      value: Bacon
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyNames.Array.data[4]
+      value: Alex
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyNames.Array.data[5]
+      value: Guy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyNames.Array.data[6]
+      value: sin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyImages.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: cb3bfc4716a98984d882f969c78384ad, type: 3}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyImages.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: b6c45db0790a1354f9d20909ae15d134, type: 3}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyImages.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: ebb2b73669064cc49aa941a09a741546, type: 3}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyImages.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: c3439f6a64e661946a4fc59963eb16f0, type: 3}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyImages.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: dc488571760b0fc4b8b147353f22d8c7, type: 3}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyImages.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: 3e4cc83f6178cf74aa51a0c314e15e2d, type: 3}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyImages.Array.data[8]
+      value: 
+      objectReference: {fileID: 21300000, guid: 40984728ee2322342843117eaa5f12c7, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
