@@ -1542,21 +1542,64 @@ MonoBehaviour:
   - noob
   - bob
   - sin
+  playerImageDisplay: {fileID: 753089907825645743}
   playerHP: 100
   enemyHP: 100
   audioSourceA: {fileID: 0}
   audioSourceB: {fileID: 0}
   audioSourceC: {fileID: 0}
-  backgroundMusicClip: {fileID: 8300000, guid: 3d27816dbbfba0d44a09e6c74653d19c, type: 3}
-  battleMusicClip: {fileID: 8300000, guid: 57407c5326fa5204182991c42318ec3b, type: 3}
+  backgroundMusicClip: {fileID: 8300000, guid: 9ade7d40db0942d4ca3792257216cf89, type: 3}
+  battleMusicClip: {fileID: 8300000, guid: d6269c8e47c16684b8125720a5bb1a23, type: 3}
   winMusicClip: {fileID: 8300000, guid: 9d335d99e652add4b98d792fe1645d5b, type: 3}
   loseMusicClip: {fileID: 8300000, guid: 22b9c14baf559ad419f7ef36b6cfeaaf, type: 3}
   preBattleSounds:
   - {fileID: 8300000, guid: d6733f0fc970cdd4e833254e6d7499b9, type: 3}
   winLineSounds:
-  - {fileID: 8300000, guid: 4b752f45aaa58014187ee2f1a55979fb, type: 3}
+  - {fileID: 8300000, guid: 40c4252678e7b3b4c91175ebc2cd03f0, type: 3}
+  - {fileID: 8300000, guid: 98afbc2d2e4f4cc4d83046e00ec99257, type: 3}
+  - {fileID: 8300000, guid: f6f707e6bcc2fd64f9f653b90184c94c, type: 3}
+  - {fileID: 8300000, guid: f6f707e6bcc2fd64f9f653b90184c94c, type: 3}
+  - {fileID: 8300000, guid: f82255b48bebcb7409fce10a1360c6ca, type: 3}
+  - {fileID: 8300000, guid: 7e5f50c65fe04fb4cb3b6881b3cc0a9c, type: 3}
+  - {fileID: 8300000, guid: 412cbcbf32c1a554e86a8d68887f2806, type: 3}
+  - {fileID: 8300000, guid: 9c25b0b4c99eb0c46818eafc31044a31, type: 3}
+  - {fileID: 8300000, guid: cdf3e4e89dcca3048a78fe6b69962208, type: 3}
+  - {fileID: 8300000, guid: 751f47b27cfe1eb4e9ac61809436b2f8, type: 3}
+  - {fileID: 8300000, guid: afe9cd3d0ed246145ac9148035d314e8, type: 3}
+  - {fileID: 8300000, guid: 343682109bc24254096b3ee0443ce9e8, type: 3}
+  - {fileID: 8300000, guid: 30a281ecdbbe10844b5c85215b9fa458, type: 3}
+  - {fileID: 8300000, guid: 932246a2de54c074489e7f9e4b97c5ef, type: 3}
+  - {fileID: 8300000, guid: 30a281ecdbbe10844b5c85215b9fa458, type: 3}
+  - {fileID: 8300000, guid: cb3c5783244afae4bb62d3a4ef861eee, type: 3}
   loseLineSounds:
+  - {fileID: 8300000, guid: e4ea299daa190e44fa348d599632e19e, type: 3}
+  - {fileID: 8300000, guid: f64b38cb7265880499e609385c6e778c, type: 3}
+  - {fileID: 8300000, guid: 94b6b5fa3b064ec4f8f0d1db0282a64f, type: 3}
+  - {fileID: 8300000, guid: ce120513958a4d942b858e3c8a30130f, type: 3}
+  - {fileID: 8300000, guid: e99440c05f5804648bb07e5f6f0c8d31, type: 3}
+  - {fileID: 8300000, guid: b436ed581c1d7494f901641461d5b961, type: 3}
+  - {fileID: 8300000, guid: 99455a2300abae048adfb0a1f95d93c2, type: 3}
+  - {fileID: 8300000, guid: b1b3cc1a8bd18944fa9d066f514fe74d, type: 3}
   - {fileID: 8300000, guid: d6733f0fc970cdd4e833254e6d7499b9, type: 3}
+  - {fileID: 8300000, guid: eac72aa349c764d459aaa1e11e917ced, type: 3}
+  - {fileID: 8300000, guid: dd8d03d6117f1ef4ea4582040f537b00, type: 3}
+  - {fileID: 8300000, guid: bf1ba2189c391ee4f95621cd09d1ecdd, type: 3}
+  - {fileID: 8300000, guid: 2e1d7267dfa11034d96ebbfaae71de1a, type: 3}
+  - {fileID: 8300000, guid: 8fde2483307158440b568d6adc84a560, type: 3}
+  - {fileID: 8300000, guid: 40b2d64636ec3b04c89f71ca2f173ffa, type: 3}
+  - {fileID: 8300000, guid: 948e17372b9ab3f4db85e49fde5f1db0, type: 3}
+  - {fileID: 8300000, guid: c4bbaa630458a18438771719c85e94f5, type: 3}
+  - {fileID: 8300000, guid: 9943907af8032104c8df379bcbaf7a83, type: 3}
+  - {fileID: 8300000, guid: 8b8ac8e18a5d8574789520a0e7e50224, type: 3}
+  - {fileID: 8300000, guid: d6733f0fc970cdd4e833254e6d7499b9, type: 3}
+  - {fileID: 8300000, guid: 52c88ba2d33109342be448af43587c9c, type: 3}
+  - {fileID: 8300000, guid: 5398a547caa3f5d43af9a53a7241baa7, type: 3}
+  - {fileID: 8300000, guid: c2dd374c034fd0e40ad3ea28995e2f93, type: 3}
+  - {fileID: 8300000, guid: 6b51d40846213bb40994c284ef006ca8, type: 3}
+  - {fileID: 8300000, guid: 20c5e2d5b38402545b3e79d43122593a, type: 3}
+  - {fileID: 8300000, guid: 3dc87306f216e1f429c4b9889fb0161b, type: 3}
+  - {fileID: 8300000, guid: 8d1426788e0677445bbaa24017b4b547, type: 3}
+  - {fileID: 8300000, guid: f01bfd91b041e1340b32e8a06a06e06d, type: 3}
   damageSounds:
   - {fileID: 8300000, guid: 34c4a627d85aa2341a7b531d68b75880, type: 3}
   - {fileID: 8300000, guid: c18efda06cc5990419243cd440cf7538, type: 3}
