@@ -25,7 +25,7 @@ public class BattleSystem : MonoBehaviour
     public List<Sprite> enemyImages;
     public Image enemyImageDisplay;
     public List<string> enemyNames;
-    public Image playerImageDisplay; // Added player image
+    public Image playerImageDisplay;
 
     [Header("Player Stats")]
     public int playerHP = 100;
@@ -33,9 +33,9 @@ public class BattleSystem : MonoBehaviour
     private int shieldRounds = 0;
 
     [Header("Audio Sources")]
-    public AudioSource audioSourceA; // Background music
-    public AudioSource audioSourceB; // Battle music
-    public AudioSource audioSourceC; // Win/lose music
+    public AudioSource audioSourceA;
+    public AudioSource audioSourceB;
+    public AudioSource audioSourceC;
 
     [Header("Audio Clips")]
     public AudioClip backgroundMusicClip;
@@ -58,7 +58,7 @@ public class BattleSystem : MonoBehaviour
         "A critical moment!"
     };
 
-    private float lastActionTime; // Tracks the time of the last player action
+    private float lastActionTime;
 
     void Start()
     {
@@ -103,14 +103,14 @@ public class BattleSystem : MonoBehaviour
 
     void InitializeButtons()
     {
-        actionButton1.onClick.AddListener(() => OnAttackButtonClicked("Tackle", 20));
-        actionButton2.onClick.AddListener(() => OnAttackButtonClicked("Flame Thrower", 25));
-        actionButton3.onClick.AddListener(() => OnAttackButtonClicked("Water Gun", 15));
-        actionButton4.onClick.AddListener(OnDefendButtonClicked);
+        actionButton1.onClick.AddListener(() => OnAttackButtonClicked("Punch", Random.Range(10, 20)));
+        actionButton2.onClick.AddListener(() => OnAttackButtonClicked("Kick", Random.Range(15, 25)));
+        actionButton3.onClick.AddListener(() => OnAttackButtonClicked("Slash", Random.Range(20, 30)));
+        actionButton4.onClick.AddListener(() => OnAttackButtonClicked("Headbutt", Random.Range(5, 15)));
 
-        healButton.onClick.AddListener(UseHeal);
-        nukeButton.onClick.AddListener(UseNuke);
-        shieldButton.onClick.AddListener(UseShield);
+        healButton.onClick.AddListener(() => UsePowerUp(UseHeal));
+        nukeButton.onClick.AddListener(() => UsePowerUp(UseNuke));
+        shieldButton.onClick.AddListener(() => UsePowerUp(UseShield));
 
         UpdateButtonTexts();
     }
@@ -119,10 +119,10 @@ public class BattleSystem : MonoBehaviour
     {
         if (!isPlayerTurn) return;
 
-        lastActionTime = Time.time; // Update last action time
+        lastActionTime = Time.time;
         if (damage > 0)
         {
-            StartCoroutine(FlashImageColor(enemyImageDisplay, Color.red, 1f)); // Flash red on hit
+            StartCoroutine(FlashImageColor(enemyImageDisplay, Color.red, 1f));
         }
         enemyHP -= damage;
         PlayHitSound();
@@ -141,11 +141,12 @@ public class BattleSystem : MonoBehaviour
         int damage = Random.Range(10, 30);
         if (damage > 0)
         {
-            StartCoroutine(FlashImageColor(playerImageDisplay, Color.red, 1f)); // Flash red on hit for player
+            StartCoroutine(FlashImageColor(playerImageDisplay, Color.red, 1f));
         }
         playerHP -= damage;
+        PlayHitSound();
         PlayDamageSound();
-        DisplayMessage("Enemy dealt " + damage + " damage!");
+        DisplayMessage("Player dealt " + damage + " damage! Enemy used ProPain.");
 
         UpdateUI();
 
@@ -158,7 +159,13 @@ public class BattleSystem : MonoBehaviour
     {
         isPlayerTurn = true;
         DisplayMessage("Your turn! Choose an action.");
-        lastActionTime = Time.time; // Update last action time
+        lastActionTime = Time.time;
+    }
+
+    void UsePowerUp(System.Action powerUpAction)
+    {
+        lastActionTime = Time.time;
+        powerUpAction();
     }
 
     void UseShield()
@@ -166,7 +173,6 @@ public class BattleSystem : MonoBehaviour
         int shields = PlayerScore.Instance.GetShield();
         if (shields > 0)
         {
-            lastActionTime = Time.time; // Update last action time
             shieldRounds = 4;
             PlayerScore.Instance.DecrementShield(1);
             DisplayMessage("Player used Shield! Protected for 4 rounds.");
@@ -178,7 +184,7 @@ public class BattleSystem : MonoBehaviour
     {
         if (!isPlayerTurn) return;
 
-        lastActionTime = Time.time; // Update last action time
+        lastActionTime = Time.time;
         DisplayMessage("Player used Defend! Reducing damage for next attack.");
         isPlayerTurn = false;
 
@@ -190,7 +196,6 @@ public class BattleSystem : MonoBehaviour
         int heal = PlayerScore.Instance.GetHeal();
         if (heal > 0 && playerHP < 100)
         {
-            lastActionTime = Time.time; // Update last action time
             playerHP = 100;
             PlayerScore.Instance.DecrementHeal(1);
             DisplayMessage("Player used Heal! Restored to full health.");
@@ -204,11 +209,12 @@ public class BattleSystem : MonoBehaviour
         int nukes = PlayerScore.Instance.GetNukes();
         if (nukes > 0)
         {
-            lastActionTime = Time.time; // Update last action time
             enemyHP -= 50;
+            StartCoroutine(FlashImageColor(enemyImageDisplay, Color.red, 1f));
             PlayerScore.Instance.DecrementNukes(1);
             DisplayMessage("Player used Nuke! Enemy took massive damage.");
             UpdatePowerUpButtons();
+            PlayHitSound();
             UpdateUI();
 
             if (CheckBattleOutcome()) return;
@@ -218,10 +224,10 @@ public class BattleSystem : MonoBehaviour
 
     void UpdateButtonTexts()
     {
-        actionButton1.GetComponentInChildren<TextMeshProUGUI>().text = "Tackle";
-        actionButton2.GetComponentInChildren<TextMeshProUGUI>().text = "Flame Thrower";
-        actionButton3.GetComponentInChildren<TextMeshProUGUI>().text = "Water Gun";
-        actionButton4.GetComponentInChildren<TextMeshProUGUI>().text = "Defend";
+        actionButton1.GetComponentInChildren<TextMeshProUGUI>().text = "Punch";
+        actionButton2.GetComponentInChildren<TextMeshProUGUI>().text = "Kick";
+        actionButton3.GetComponentInChildren<TextMeshProUGUI>().text = "Slash";
+        actionButton4.GetComponentInChildren<TextMeshProUGUI>().text = "Headbutt";
     }
 
     void UpdatePowerUpButtons()
@@ -243,7 +249,7 @@ public class BattleSystem : MonoBehaviour
     {
         if (audioSourceA != null)
         {
-            audioSourceA.Pause(); // Pause background music
+            audioSourceA.Pause();
         }
 
         if (audioSourceB != null)
@@ -257,12 +263,12 @@ public class BattleSystem : MonoBehaviour
     {
         if (audioSourceB != null)
         {
-            audioSourceB.Stop(); // Stop battle music
+            audioSourceB.Stop();
         }
 
         if (audioSourceA != null)
         {
-            audioSourceA.UnPause(); // Resume background music
+            audioSourceA.UnPause();
         }
     }
 
@@ -270,20 +276,28 @@ public class BattleSystem : MonoBehaviour
     {
         if (audioSourceB != null)
         {
-            audioSourceB.Stop(); // Stop battle music
+            audioSourceB.Stop();
         }
 
         if (playerWon)
         {
             PlayWinSound();
             DisplayMessage("Congrats, you won!");
+            PlayerScore.Instance.IncrementWins(1);
+            PlayerScore.Instance.AddPoints(150);
+            PlayerScore.Instance.IncrementBattles(1);
+            enemyImageDisplay.enabled = false;
             Invoke(nameof(RemoveUI), 16f);
         }
         else
         {
             PlayLoseSound();
             DisplayMessage("You lost...");
-            AddPoints();
+            PlayerScore.Instance.IncrementLost(1);
+            PlayerScore.Instance.AddPoints(50);
+            PlayerScore.Instance.IncrementBattles(1);
+            playerImageDisplay.enabled = false;
+            Invoke(nameof(RemoveUI), 16f);
         }
     }
 
@@ -302,7 +316,7 @@ public class BattleSystem : MonoBehaviour
 
         if (audioSourceA != null)
         {
-            audioSourceA.UnPause(); // Resume background music
+            audioSourceA.UnPause();
         }
     }
 
@@ -434,3 +448,4 @@ public class BattleSystem : MonoBehaviour
         image.color = originalColor;
     }
 }
+

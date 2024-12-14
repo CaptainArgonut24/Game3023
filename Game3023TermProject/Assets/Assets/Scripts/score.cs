@@ -57,19 +57,19 @@ public class PlayerScore : MonoBehaviour
         UpdateUI();
     }
 
-    public void IncrementBattles()
+    public void IncrementBattles(int i)
     {
         battles++; // Increment battle count
         UpdateUI(); // Update UI to reflect the new battle count
     }
 
-    public void IncrementWins()
+    public void IncrementWins(int i)
     {
         wins++;
         UpdateUI();
     }
 
-    public void IncrementLost()
+    public void IncrementLost(int i)
     {
         lost++;
         UpdateUI();

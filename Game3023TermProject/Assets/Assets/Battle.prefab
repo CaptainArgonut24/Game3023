@@ -550,7 +550,7 @@ RectTransform:
   m_GameObject: {fileID: 568258788084751859}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.625, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4343887581959518108}
@@ -588,7 +588,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d9636dd3045f1f543a4f5097fc762dd8, type: 3}
+  m_Sprite: {fileID: 625860015, guid: 1ee94636274394a49821b81c5ca53527, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1553,7 +1553,36 @@ MonoBehaviour:
   winMusicClip: {fileID: 8300000, guid: 9d335d99e652add4b98d792fe1645d5b, type: 3}
   loseMusicClip: {fileID: 8300000, guid: 22b9c14baf559ad419f7ef36b6cfeaaf, type: 3}
   preBattleSounds:
-  - {fileID: 8300000, guid: d6733f0fc970cdd4e833254e6d7499b9, type: 3}
+  - {fileID: 8300000, guid: e541fdf73033d6047a494b33fd06f1e2, type: 3}
+  - {fileID: 8300000, guid: 30c9ffd7ee5742347b484781636064c9, type: 3}
+  - {fileID: 8300000, guid: dcaf92155fa88b64c919e45e3d3da993, type: 3}
+  - {fileID: 8300000, guid: 8ee3b898e66b7f5419cfe0e2ce989fc5, type: 3}
+  - {fileID: 8300000, guid: dcaf92155fa88b64c919e45e3d3da993, type: 3}
+  - {fileID: 8300000, guid: ea0202d6483513a42a7106b694f04959, type: 3}
+  - {fileID: 8300000, guid: a1cb80775041ca54da05e11a9f8ce7c0, type: 3}
+  - {fileID: 8300000, guid: 2cfd091a86035804197d8ddd28e94a31, type: 3}
+  - {fileID: 8300000, guid: 0df5bbed64480fc48a71bda4bf147307, type: 3}
+  - {fileID: 8300000, guid: fbe320ee13e99344bb0c1b86bf3f1016, type: 3}
+  - {fileID: 8300000, guid: 296d42944542c8943a6ec5673896e0ba, type: 3}
+  - {fileID: 8300000, guid: d3eab9e43e3bdf54980ba04e1efad3ab, type: 3}
+  - {fileID: 8300000, guid: 79dbadbff15bd3d4880e8ee6b5689787, type: 3}
+  - {fileID: 8300000, guid: f4ad2b7a963a29841ba5dd136dba2681, type: 3}
+  - {fileID: 8300000, guid: d0b102620c16239499a8b2bd901838c1, type: 3}
+  - {fileID: 8300000, guid: d0b102620c16239499a8b2bd901838c1, type: 3}
+  - {fileID: 8300000, guid: 9af731f075403364ab51366c0acf3e62, type: 3}
+  - {fileID: 8300000, guid: 5de707321ed4a114caa078a78b8ecf86, type: 3}
+  - {fileID: 8300000, guid: 5de707321ed4a114caa078a78b8ecf86, type: 3}
+  - {fileID: 8300000, guid: 24a67b9106cb64a49acc374c9c13a0ba, type: 3}
+  - {fileID: 8300000, guid: 24a67b9106cb64a49acc374c9c13a0ba, type: 3}
+  - {fileID: 8300000, guid: 2c59581e188a8dc4989e49dc5188b943, type: 3}
+  - {fileID: 8300000, guid: c153fb40034565d428ced1ea88de022e, type: 3}
+  - {fileID: 8300000, guid: 232567e3b4a326041b767dcc6ffbd933, type: 3}
+  - {fileID: 8300000, guid: 792a32ac4bcc4334f8e253679dc1d1dd, type: 3}
+  - {fileID: 8300000, guid: 792a32ac4bcc4334f8e253679dc1d1dd, type: 3}
+  - {fileID: 8300000, guid: c7aa704fbab392144b6e45e33325c422, type: 3}
+  - {fileID: 8300000, guid: a957a874b5837534a9177011874f106b, type: 3}
+  - {fileID: 8300000, guid: d049774bf3ab55a43baf79490049686c, type: 3}
+  - {fileID: 8300000, guid: f7a1ca849a317654bb82f7dd67d9beb7, type: 3}
   winLineSounds:
   - {fileID: 8300000, guid: 40c4252678e7b3b4c91175ebc2cd03f0, type: 3}
   - {fileID: 8300000, guid: 98afbc2d2e4f4cc4d83046e00ec99257, type: 3}
@@ -1612,7 +1641,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 450117b15671e9c438df247c9ba2773f, type: 3}
   - {fileID: 8300000, guid: 7da51d7795cb135479e6227e8e87ce0c, type: 3}
   - {fileID: 8300000, guid: cf64956aaadc15c4d95ab2caf1bb5b2a, type: 3}
-  hitSound: {fileID: 8300000, guid: b2a21a337f375e7478d8e3cb7534074f, type: 3}
+  hitSound: {fileID: 8300000, guid: d15f3f97fac3404438cc9378a60da192, type: 3}
   inactivitySound: {fileID: 8300000, guid: 142f5f87f677cd94198315784e52e336, type: 3}
 --- !u!1 &3617765081899333580
 GameObject:
