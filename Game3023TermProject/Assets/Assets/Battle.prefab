@@ -1052,7 +1052,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3bec9dc2f66fc8b46b2a0c94fdf2c967, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1537,11 +1537,23 @@ MonoBehaviour:
   enemyImages:
   - {fileID: 21300000, guid: 3bec9dc2f66fc8b46b2a0c94fdf2c967, type: 3}
   - {fileID: 21300000, guid: d9636dd3045f1f543a4f5097fc762dd8, type: 3}
+  - {fileID: 21300000, guid: dc488571760b0fc4b8b147353f22d8c7, type: 3}
+  - {fileID: 21300000, guid: c3439f6a64e661946a4fc59963eb16f0, type: 3}
+  - {fileID: 21300000, guid: 3e4cc83f6178cf74aa51a0c314e15e2d, type: 3}
+  - {fileID: 21300000, guid: cb3bfc4716a98984d882f969c78384ad, type: 3}
+  - {fileID: 21300000, guid: 40984728ee2322342843117eaa5f12c7, type: 3}
+  - {fileID: 21300000, guid: b6c45db0790a1354f9d20909ae15d134, type: 3}
+  - {fileID: 21300000, guid: ebb2b73669064cc49aa941a09a741546, type: 3}
+  - {fileID: 21300000, guid: 40984728ee2322342843117eaa5f12c7, type: 3}
   enemyImageDisplay: {fileID: 7302973387688228497}
   enemyNames:
   - noob
   - bob
   - sin
+  - jon doe
+  - Bacon
+  - 1x1x1x1
+  - Just A Guy
   playerImageDisplay: {fileID: 753089907825645743}
   playerHP: 100
   enemyHP: 100

@@ -219,6 +219,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyHP
+      value: 2500
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: audioSourceA
       value: 
       objectReference: {fileID: 624855578}
@@ -1101,6 +1105,10 @@ PrefabInstance:
     - target: {fileID: 4343887581959518108, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyHP
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: audioSourceA
@@ -221799,6 +221807,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyHP
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: audioSourceA
       value: 
       objectReference: {fileID: 624855578}
@@ -222469,6 +222481,10 @@ PrefabInstance:
     - target: {fileID: 4343887581959518108, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyHP
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: audioSourceA
@@ -224148,6 +224164,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyHP
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: audioSourceA
       value: 
       objectReference: {fileID: 624855578}
@@ -225173,6 +225193,10 @@ PrefabInstance:
     - target: {fileID: 4343887581959518108, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyHP
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: audioSourceA
@@ -226578,6 +226602,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyHP
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: audioSourceA
       value: 
       objectReference: {fileID: 624855578}
@@ -227026,6 +227054,10 @@ PrefabInstance:
     - target: {fileID: 4343887581959518108, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
+      propertyPath: enemyHP
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 7959660337773716056, guid: 32c10a46e4e9bd44d8a049b90b815025, type: 3}
       propertyPath: audioSourceA
